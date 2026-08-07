@@ -108,6 +108,10 @@ export default function FeaturedProjects() {
                     <>
                       <span className="font-serif font-semibold italic text-primary">Innsiktsarbeid</span> som førte til nye faktureringsforslag og <span className="font-serif font-semibold italic text-primary">redesign</span> av markedsføringssiden.
                     </>
+                  ) : index === 2 ? (
+                    <>
+                      Design av <span className="font-serif font-semibold italic text-primary">VR-simulering</span> for opplæring av helsepersonell ved sykehuset i Innlandet
+                    </>
                   ) : (
                     project.description
                   )}
