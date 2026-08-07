@@ -51,8 +51,16 @@ export default function OmMeg() {
             <div className="absolute left-[82px] top-[136px] w-[155px] rotate-[3deg] bg-white p-[6px] shadow-[0_2px_16px_rgba(0,0,0,.12)]">
               <img src={photos.portrait} alt="Portrett av Selma" className="block aspect-square w-full object-cover" />
             </div>
-            <span className="absolute right-0 top-4 rotate-6 text-5xl" aria-hidden="true">🦜</span>
-            <span className="absolute -left-2 bottom-2 -rotate-6 text-5xl" aria-hidden="true">👩🏻‍💻</span>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5e08590f57fa4764a9a3ed591c19f16a?format=webp&width=800&height=1200"
+              alt="Pixelillustrasjon av en gul fugl"
+              className="absolute right-0 top-4 h-[79px] w-[72px] rotate-6 object-contain"
+            />
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F0258b36459c646e0b4e118e1a31c1074?format=webp&width=800&height=1200"
+              alt="Pixelillustrasjon av Selma"
+              className="absolute -left-2 bottom-2 h-[106px] w-[80px] -rotate-6 object-contain"
+            />
           </div>
         </div>
 
