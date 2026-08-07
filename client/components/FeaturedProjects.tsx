@@ -32,8 +32,8 @@ const projects: Project[] = [
     description:
       "Design av VR-simulering for opplæring av helsepersonell ved sykehuset i Innlandet",
     image:
-      "https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Kode på en skjerm med React-logo",
+      "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Ffa6bcae27bcc4adb903a4ae59ff0abd8?format=webp&width=800&height=1200",
+    imageAlt: "Person foran en XR-simulering",
   },
   {
     title: "Tjønnås & Norvald",
