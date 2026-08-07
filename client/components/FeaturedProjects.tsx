@@ -87,10 +87,22 @@ export default function FeaturedProjects() {
                   {project.title}
                 </h3>
                 <p className="-mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-                  {project.category}
+                  {index === 0 ? (
+                    <>
+                      UX / <span className="text-primary">Designsystem</span> 2026
+                    </>
+                  ) : (
+                    project.category
+                  )}
                 </p>
                 <p className="max-w-[452px] text-base leading-[1.625] text-foreground">
-                  {project.description}
+                  {index === 0 ? (
+                    <>
+                      <span className="font-serif font-light text-primary">Redesign</span> av nettsiden for Emanuel Vigelands museum, med vektleggelse av <span className="font-serif font-light text-primary">designsystem</span> og universell utforming.
+                    </>
+                  ) : (
+                    project.description
+                  )}
                 </p>
                 <Link
                   to="/prosjekter"
