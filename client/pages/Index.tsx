@@ -23,7 +23,7 @@ export default function Index() {
 
           <div className="flex w-full flex-col items-center gap-2 pt-6 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
             <p className="font-serif text-xl font-semibold italic leading-[1.5] tracking-[-0.01em] text-foreground sm:text-[28.225px]">
-              Tverrfaglig prosjekt 2026
+              UX design student
             </p>
             <span className="text-xs uppercase tracking-[1.2px] text-primary">
               Portefølje 2026

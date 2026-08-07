@@ -88,9 +88,9 @@ export default function FeaturedProjects() {
                 </h3>
                 <p className="-mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
                   {index === 0 ? (
-                    <>
-                      UX / <span className="font-semibold italic text-primary">Designsystem</span> 2026
-                    </>
+                    <span className="font-semibold italic text-primary">
+                      Tverrfaglig prosjekt 2026
+                    </span>
                   ) : (
                     project.category
                   )}
