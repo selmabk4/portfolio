@@ -15,8 +15,8 @@ const projects: Project[] = [
     description:
       "Redesign av nettsiden for Emanuel Vigelands museum, med vektleggelse av designsystem og universell utforming.",
     image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/e089481b455e3086b1abe2ee59efb3cc100b12b5?width=1065",
-    imageAlt: "Interiør fra Emanuel Vigeland Museum",
+      "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9ef66eca2f6643048abbbdad416ef009?format=webp&width=800&height=1200",
+    imageAlt: "Emanuel Vigeland Museum nettsidedesign",
   },
   {
     title: "PayoutPartner",
