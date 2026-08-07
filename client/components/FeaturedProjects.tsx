@@ -88,7 +88,7 @@ export default function FeaturedProjects() {
                 </h3>
                 <p className="-mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
                   {index === 0 ? (
-                    <span className="font-semibold italic text-primary">
+                    <span className="font-semibold italic text-muted-foreground">
                       Tverrfaglig prosjekt 2026
                     </span>
                   ) : (
