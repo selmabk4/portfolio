@@ -28,9 +28,9 @@ const projects: Project[] = [
   },
   {
     title: "SIMInnlandet",
-    category: "VR / Tjenestedesign 2025",
+    category: "XR design 2025",
     description:
-      "VR-simulering for opplæring av helsepersonell ved sykehuset i Innlandet.",
+      "Design av VR-simulering for opplæring av helsepersonell ved sykehuset i Innlandet",
     image:
       "https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Kode på en skjerm med React-logo",
