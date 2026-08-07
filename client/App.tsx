@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "@/components/Layout";
 import Index from "./pages/Index";
 import Placeholder from "./pages/Placeholder";
+import OmMeg from "./pages/OmMeg";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,7 +27,7 @@ const App = () => (
               path="/prosjekter"
               element={<Placeholder title="Prosjekter" />}
             />
-            <Route path="/om-meg" element={<Placeholder title="Om meg" />} />
+            <Route path="/om-meg" element={<OmMeg />} />
             <Route path="/kontakt" element={<Placeholder title="Kontakt" />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
