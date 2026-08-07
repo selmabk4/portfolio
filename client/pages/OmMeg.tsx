@@ -5,7 +5,7 @@ const photos = {
   portrait: "https://api.builder.io/api/v1/image/assets/TEMP/d140ca62b71b966c4f7629dd28c54bb736bb0785?width=286",
 };
 
-const tools = ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign", "Claude Design", "Miro", "Mailjet"];
+const tools = ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign", "Claude Design", "Miro", "Mailjet", "Canva", "Builder.io"];
 const other = ["HTML", "CSS", "GitHub"];
 
 function Tags({ items }: { items: string[] }) {
