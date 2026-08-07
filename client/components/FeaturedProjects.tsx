@@ -94,9 +94,10 @@ export default function FeaturedProjects() {
                 </p>
                 <Link
                   to="/prosjekter"
-                  className="mt-2 inline-flex w-fit items-center gap-3 border border-foreground px-[17.6px] py-[8.8px] text-xs uppercase tracking-[1.2px] text-foreground transition-colors hover:bg-foreground hover:text-background"
+                  className="mt-2 inline-flex w-fit items-center gap-3 border border-foreground px-[17.6px] py-[8.8px] text-xs uppercase tracking-[1.2px] text-foreground transition-colors hover:border-primary hover:bg-primary hover:text-primary-foreground"
                 >
-                  Se prosjekt →
+                  Se prosjekt
+                  <span aria-hidden="true">→</span>
                 </Link>
               </div>
               <div
