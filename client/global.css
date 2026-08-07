@@ -129,7 +129,7 @@
     transform: translate3d(0, 0, 0) rotate(0deg);
   }
   50% {
-    transform: translate3d(-12px, 10px, 0) rotate(3deg);
+    transform: translate3d(-28px, 22px, 0) rotate(7deg);
   }
 }
 
@@ -138,7 +138,7 @@
     transform: translate3d(0, 0, 0) rotate(0deg);
   }
   50% {
-    transform: translate3d(10px, -8px, 0) rotate(-4deg);
+    transform: translate3d(22px, -18px, 0) rotate(-8deg);
   }
 }
 
@@ -147,11 +147,11 @@
 }
 
 .hero-bubble-large {
-  animation: bubble-drift-large 18s ease-in-out infinite;
+  animation: bubble-drift-large 11s ease-in-out infinite;
 }
 
 .hero-bubble-small {
-  animation: bubble-drift-small 13s ease-in-out 1s infinite;
+  animation: bubble-drift-small 8s ease-in-out 1s infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
