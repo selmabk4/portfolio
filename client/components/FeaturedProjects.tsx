@@ -91,6 +91,10 @@ export default function FeaturedProjects() {
                     <span className="font-sans font-normal not-italic text-muted-foreground">
                       Tverrfaglig prosjekt 2026
                     </span>
+                  ) : index === 1 ? (
+                    <span className="font-sans font-normal not-italic text-muted-foreground">
+                      Praksisplass 2026
+                    </span>
                   ) : (
                     project.category
                   )}
@@ -99,6 +103,10 @@ export default function FeaturedProjects() {
                   {index === 0 ? (
                     <>
                       <span className="font-serif font-semibold italic text-primary">Redesign</span> av Emanuel Vigeland museets nettside, med vektleggelse av <span className="font-serif font-semibold italic text-primary">designsystem</span> og <span className="font-serif font-semibold italic text-primary">universell utforming</span>
+                    </>
+                  ) : index === 1 ? (
+                    <>
+                      <span className="font-serif font-semibold italic text-primary">Innsiktsarbeid</span> som førte til nye <span className="font-serif font-semibold italic text-primary">faktureringsforslag</span> og <span className="font-serif font-semibold italic text-primary">redesign</span> av markedsføringssiden.
                     </>
                   ) : (
                     project.description
