@@ -14,7 +14,7 @@ export default function Index() {
           className="hero-bubble hero-bubble-small pointer-events-none absolute -bottom-10 -left-10 w-[100px] rounded-full opacity-35 sm:w-[120px] lg:-left-7 lg:bottom-10 lg:w-[140px]"
         />
 
-        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1024px] flex-col items-center justify-start px-6 pb-16 pt-10 sm:px-8 sm:pt-14 lg:pt-16">
+        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1024px] flex-col items-center justify-start px-6 pb-16 pt-12 sm:px-8 sm:pt-16 lg:pt-[72px]">
           <div className="flex w-full flex-col items-center border border-border px-6 py-8 sm:px-12 sm:py-10">
             <h1 className="text-center font-serif text-[40px] font-light leading-[1] tracking-[-0.02em] text-foreground sm:text-6xl lg:text-[84.675px] lg:leading-[84.675px] lg:tracking-[-1.694px]">
               Selma Bjørtomt Keser
