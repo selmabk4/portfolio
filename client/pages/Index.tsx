@@ -16,7 +16,7 @@ export default function Index() {
 
         <div className="relative z-10 mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1024px] flex-col items-center justify-center px-6 py-16 sm:px-8">
           <div className="flex w-full flex-col items-center border border-border px-6 py-8 sm:px-12 sm:py-10">
-            <h1 className="text-center font-serif text-[40px] font-medium leading-[1] tracking-[-0.02em] text-foreground sm:text-6xl lg:text-[84.675px] lg:leading-[84.675px] lg:tracking-[-1.694px]">
+            <h1 className="text-center font-serif text-[40px] font-light leading-[1] tracking-[-0.02em] text-foreground sm:text-6xl lg:text-[84.675px] lg:leading-[84.675px] lg:tracking-[-1.694px]">
               Selma Bjørtomt Keser
             </h1>
           </div>
