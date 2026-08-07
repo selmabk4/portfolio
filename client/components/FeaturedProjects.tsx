@@ -106,7 +106,7 @@ export default function FeaturedProjects() {
                     </>
                   ) : index === 1 ? (
                     <>
-                      <span className="font-serif font-semibold italic text-primary">Innsiktsarbeid</span> som førte til nye <span className="font-serif font-semibold italic text-primary">faktureringsforslag</span> og <span className="font-serif font-semibold italic text-primary">redesign</span> av markedsføringssiden.
+                      <span className="font-serif font-semibold italic text-primary">Innsiktsarbeid</span> som førte til nye faktureringsforslag og <span className="font-serif font-semibold italic text-primary">redesign</span> av markedsføringssiden.
                     </>
                   ) : (
                     project.description
