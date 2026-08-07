@@ -102,7 +102,7 @@ export default function FeaturedProjects() {
                 <p className="max-w-[452px] text-base leading-[1.625] text-foreground">
                   {index === 0 ? (
                     <>
-                      <span className="font-serif font-semibold italic text-primary">Redesign</span> av Emanuel Vigeland museets nettside, med vektleggelse av <span className="font-serif font-semibold italic text-primary">designsystem</span> og <span className="font-serif font-semibold italic text-primary">universell utforming</span>
+                      <span className="font-serif font-semibold italic text-primary">Redesign</span> av Emanuel Vigeland museets nettside, med vektleggelse av <span className="font-serif font-semibold italic text-primary">designsystem</span> og <span className="font-serif font-semibold italic text-primary">universell utforming</span>.
                     </>
                   ) : index === 1 ? (
                     <>
