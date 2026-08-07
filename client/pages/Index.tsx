@@ -40,7 +40,7 @@ export default function Index() {
           <div className="w-full pt-8">
             <a
               href="#prosjekter"
-              className="inline-flex items-center gap-3 bg-primary px-[22.4px] py-[10.4px] text-[12.8px] uppercase tracking-[1.28px] text-primary-foreground transition-opacity hover:opacity-90"
+              className="hero-cta-shake inline-flex items-center gap-3 bg-primary px-[22.4px] py-[10.4px] text-[12.8px] uppercase tracking-[1.28px] text-primary-foreground transition-opacity hover:opacity-90"
             >
               Se prosjekter
               <span aria-hidden="true">↓</span>
