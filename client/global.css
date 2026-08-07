@@ -119,3 +119,39 @@
     white-space: pre;
   }
 }
+
+@keyframes bubble-drift-large {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(-12px, 10px, 0) rotate(3deg);
+  }
+}
+
+@keyframes bubble-drift-small {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(10px, -8px, 0) rotate(-4deg);
+  }
+}
+
+.hero-bubble {
+  will-change: transform;
+}
+
+.hero-bubble-large {
+  animation: bubble-drift-large 18s ease-in-out infinite;
+}
+
+.hero-bubble-small {
+  animation: bubble-drift-small 13s ease-in-out 1s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-bubble {
+    animation: none;
+  }
+}

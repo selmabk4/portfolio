@@ -6,11 +6,11 @@ export default function Index() {
     <div className="relative overflow-hidden">
       <GradientBlob
         id="blob-hero"
-        className="pointer-events-none absolute -right-16 -top-20 hidden w-[220px] rounded-full opacity-50 sm:block sm:w-[280px] lg:-right-6 lg:-top-24 lg:w-[380px]"
+        className="hero-bubble hero-bubble-large pointer-events-none absolute -right-16 -top-20 hidden w-[220px] rounded-full opacity-50 sm:block sm:w-[280px] lg:-right-6 lg:-top-24 lg:w-[380px]"
       />
       <GradientBlob
         id="blob-hero-sm"
-        className="pointer-events-none absolute -bottom-10 -left-10 w-[100px] rounded-full opacity-35 sm:w-[120px] lg:-left-7 lg:bottom-10 lg:w-[140px]"
+        className="hero-bubble hero-bubble-small pointer-events-none absolute -bottom-10 -left-10 w-[100px] rounded-full opacity-35 sm:w-[120px] lg:-left-7 lg:bottom-10 lg:w-[140px]"
       />
 
       <div className="relative z-10 mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1024px] flex-col items-center justify-center px-6 py-16 sm:px-8">
