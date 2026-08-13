@@ -11,7 +11,7 @@ const navItems = [
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background">
-      <header className="relative z-20">
+      <header className="fixed inset-x-0 top-0 z-20 bg-background">
         <nav className="mx-auto flex h-20 max-w-[1152px] items-center justify-between px-6 sm:px-8">
           <Link
             to="/"
@@ -41,7 +41,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           </ul>
         </nav>
       </header>
-      <main>{children}</main>
+      <main className="pt-20">{children}</main>
     </div>
   );
 }
