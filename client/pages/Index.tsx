@@ -55,9 +55,6 @@ export default function Index() {
           <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
             Andre prosjekter
           </h2>
-          <span className="hidden text-xs uppercase tracking-[1.2px] text-[#b0a898] sm:inline">
-            innhold til sosiale medier
-          </span>
         </div>
 
         <article className="mt-10 grid gap-8 border-b border-border pb-10 sm:mt-14 sm:grid-cols-[minmax(0,0.9fr)_minmax(280px,1.1fr)] sm:gap-16 sm:pb-14">
