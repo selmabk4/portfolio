@@ -5,16 +5,12 @@ const heroImage =
 
 const focusAreas = [
   {
-    title: "Designsystem",
-    text: "Et tydelig visuelt fundament som gjør innholdet lettere å videreutvikle.",
-  },
-  {
     title: "Universell utforming",
     text: "Struktur og løsninger med fokus på at flere skal kunne bruke nettsiden.",
   },
   {
-    title: "Redesign",
-    text: "En ny retning for museets nettside, med utgangspunkt i prosjektets behov.",
+    title: "Designsystem",
+    text: "Et tydelig visuelt fundament som gjør innholdet lettere å videreutvikle.",
   },
 ];
 
@@ -79,7 +75,7 @@ export default function EmanuelVigelandMuseum() {
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Fokus
               </dt>
-              <dd className="text-foreground">UX, design og system</dd>
+              <dd className="text-foreground">Universell utforming og designsystem</dd>
             </div>
           </dl>
         </div>
@@ -95,7 +91,7 @@ export default function EmanuelVigelandMuseum() {
               </h2>
             </div>
             <p className="max-w-[360px] text-sm leading-7 text-muted-foreground">
-              Tre sentrale deler av arbeidet med museumsnettstedet.
+              To sentrale deler av arbeidet med museumsnettstedet.
             </p>
           </div>
 
