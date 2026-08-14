@@ -56,7 +56,7 @@ export default function Index() {
             Andre prosjekter
           </h2>
           <span className="hidden text-xs uppercase tracking-[1.2px] text-[#b0a898] sm:inline">
-            Grafisk design
+            Innholdsproduksjon
           </span>
         </div>
 
@@ -67,10 +67,10 @@ export default function Index() {
                 Fugleadvokatene
               </h3>
               <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-                Grafisk design
+                Innholdsproduksjon
               </p>
               <p className="mt-4 max-w-[360px] text-base leading-[1.625] text-foreground">
-                Grafisk designarbeid for Fugleadvokatene.
+                Innholdsproduksjon for Fugleadvokatene.
               </p>
             </div>
             <p className="max-w-[620px] font-serif text-2xl leading-[1.35] text-primary sm:text-[32px]">
@@ -83,7 +83,7 @@ export default function Index() {
               <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-[380px] sm:w-[380px]">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
-                  alt="Grafisk designinnlegg for Fugleadvokatene"
+                  alt="Innholdsproduksjon for Fugleadvokatene"
                   className="h-full w-full object-cover"
                 />
               </figure>
