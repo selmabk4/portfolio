@@ -71,7 +71,7 @@ export default function Index() {
               Fugleadvokatene
             </h3>
             <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-              innhold til sosiale medier
+              Innholdsproduksjon
             </p>
             <p className="mt-6 max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
               Visuell kommunikasjon for nødstilte byfugler
