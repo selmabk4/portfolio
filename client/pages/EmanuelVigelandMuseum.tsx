@@ -3,24 +3,24 @@ import { Link } from "react-router-dom";
 export default function EmanuelVigelandMuseum() {
   return (
     <article>
-      <section className="bg-[#514750] text-white">
+      <section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-[1152px] px-6 pb-20 pt-10 sm:px-8 sm:pb-28 sm:pt-14">
           <Link
             to="/#prosjekter"
-            className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[1px] text-white/70 transition-colors hover:text-white"
+            className="inline-flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground"
           >
             <span aria-hidden="true">←</span>
-            Portefølje / Emanuel Vigeland Museum
+            Tilbake til prosjekter
           </Link>
 
           <div className="mt-20 max-w-[620px] sm:mt-24">
-            <p className="mb-5 text-xs uppercase tracking-[1.2px] text-white/70">
+            <p className="mb-5 text-xs uppercase tracking-[1.2px] text-primary-foreground/80">
               Tverrfaglig prosjekt, vår 2026
             </p>
             <h1 className="font-serif text-4xl font-medium leading-[1.08] tracking-[-0.02em] sm:text-6xl lg:text-[72px]">
               Emanuel Vigeland Museum
             </h1>
-            <p className="mt-6 max-w-[480px] text-sm leading-7 text-white/80 sm:text-base">
+            <p className="mt-6 max-w-[480px] text-sm leading-7 text-primary-foreground/90 sm:text-base">
               Redesign av Emanuel Vigeland Museums nettside med fokus på universell
               utforming og designsystem.
             </p>
