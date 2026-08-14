@@ -61,7 +61,7 @@ export default function Index() {
         </div>
 
         <article className="mt-10 overflow-hidden border-b border-border sm:mt-14">
-          <div className="grid gap-8 pb-8 sm:grid-cols-[minmax(220px,0.7fr)_minmax(0,1.3fr)] sm:items-start sm:gap-20 sm:pb-10">
+          <div className="grid gap-8 pb-8 sm:grid-cols-[minmax(280px,0.9fr)_minmax(0,1.1fr)] sm:items-start sm:gap-12 sm:pb-10">
             <div>
               <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
                 Fugleadvokatene
@@ -69,18 +69,18 @@ export default function Index() {
               <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
                 Innholdsproduksjon
               </p>
-              <p className="mt-4 max-w-[360px] text-base leading-[1.625] text-foreground">
+              <p className="mt-4 max-w-[430px] text-base leading-[1.625] text-foreground">
                 Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
                 innhold for å spre kunnskap om byfugler og hjelpe skadde eller
                 nødstilte fugler med å finne trygge for-alltid-hjem.
               </p>
             </div>
-            <p className="max-w-[560px] font-serif text-2xl leading-[1.35] text-primary sm:text-[32px]">
+            <p className="max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
               Innhold til sosiale medier som opplyser om byfugler og hjelper dem med å finne trygge hjem.
             </p>
           </div>
 
-          <div className="overflow-x-auto border-t border-border pb-6 pt-6 sm:overflow-visible">
+          <div className="overflow-x-auto border-t border-border pb-6 pt-6 sm:ml-auto sm:max-w-[640px] sm:overflow-visible">
             <div className="flex min-w-max snap-x snap-mandatory gap-4 sm:grid sm:min-w-0 sm:grid-cols-2">
               <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-auto sm:w-auto sm:aspect-square">
                 <img
