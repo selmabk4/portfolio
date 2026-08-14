@@ -1,10 +1,5 @@
 import { Link } from "react-router-dom";
 
-const heroImage =
-  "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9ef66eca2f6643048abbbdad416ef009?format=webp&width=800&height=1200";
-const backgroundImage =
-  "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9535e50d3826407b876c8218492156ac?format=webp&width=800&height=1200";
-
 export default function EmanuelVigelandMuseum() {
   return (
     <article>
@@ -31,13 +26,6 @@ export default function EmanuelVigelandMuseum() {
           </p>
         </header>
 
-        <div className="mt-12 overflow-hidden border border-border bg-secondary sm:mt-16">
-          <img
-            src={heroImage}
-            alt="Emanuel Vigeland Museum nettsidedesign"
-            className="h-[320px] w-full object-cover object-top sm:h-[480px] lg:h-[600px]"
-          />
-        </div>
 
         <div className="mt-16 grid gap-12 border-b border-border pb-16 sm:mt-24 sm:grid-cols-[minmax(0,1fr)_minmax(260px,0.7fr)] sm:gap-16 sm:pb-24">
           <div>
@@ -87,13 +75,6 @@ export default function EmanuelVigelandMuseum() {
             </p>
           </div>
 
-          <figure className="mt-12 overflow-hidden border border-border bg-secondary sm:mt-16">
-            <img
-              src={backgroundImage}
-              alt="Skjermbilde av Emanuel Vigeland Museums gamle nettside"
-              className="mx-auto max-h-[440px] w-full object-contain object-top"
-            />
-          </figure>
         </section>
 
         <div className="border-t border-border pt-8">
