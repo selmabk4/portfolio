@@ -80,7 +80,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="overflow-x-auto border-t border-border pb-6 pt-6 sm:ml-auto sm:max-w-[640px] sm:overflow-visible">
+          <div className="overflow-x-auto border-t border-border pb-6 pt-6 sm:ml-auto sm:max-w-[620px] sm:overflow-visible">
             <div className="flex min-w-max snap-x snap-mandatory gap-4 sm:grid sm:min-w-0 sm:grid-cols-2">
               <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-auto sm:w-auto sm:aspect-square">
                 <img
@@ -89,8 +89,8 @@ export default function Index() {
                   className="h-full w-full object-cover"
                 />
               </figure>
-              <div className="flex h-[280px] w-[280px] shrink-0 snap-start items-center justify-center bg-primary px-8 sm:h-auto sm:w-auto sm:aspect-square">
-                <p className="max-w-[280px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-6xl">
+              <div className="flex h-[280px] w-[280px] shrink-0 snap-start items-center justify-center bg-primary px-6 sm:h-auto sm:w-auto sm:aspect-square">
+                <p className="whitespace-nowrap text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.04em] text-primary-foreground sm:text-5xl">
                   Fugleadvokatene
                 </p>
               </div>
