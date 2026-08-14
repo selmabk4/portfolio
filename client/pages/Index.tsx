@@ -57,8 +57,8 @@ export default function Index() {
           </h2>
         </div>
 
-        <article className="mt-10 grid gap-8 border-b border-border pb-10 sm:mt-14 sm:grid-cols-[minmax(0,0.9fr)_minmax(280px,1.1fr)] sm:items-stretch sm:gap-16 sm:pb-14">
-          <figure className="order-1 aspect-square w-full max-w-[520px] overflow-hidden bg-background sm:order-1">
+        <article className="mt-10 grid gap-8 border-b border-border pb-10 sm:mt-14 sm:grid-cols-[minmax(280px,1.1fr)_minmax(0,0.9fr)] sm:items-stretch sm:gap-16 sm:pb-14">
+          <figure className="order-2 aspect-square w-full max-w-[520px] overflow-hidden bg-background sm:order-2">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
               alt="innhold til sosiale medier for Fugleadvokatene"
@@ -66,7 +66,7 @@ export default function Index() {
             />
           </figure>
 
-          <div className="order-2 flex h-full flex-col justify-center sm:order-2">
+          <div className="order-1 flex h-full flex-col justify-center sm:order-1">
             <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
               Fugleadvokatene
             </h3>
