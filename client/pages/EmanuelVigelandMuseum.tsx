@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 const heroImage =
   "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9ef66eca2f6643048abbbdad416ef009?format=webp&width=800&height=1200";
+const backgroundImage =
+  "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9535e50d3826407b876c8218492156ac?format=webp&width=800&height=1200";
 
 const focusAreas = [
   {
@@ -97,9 +99,17 @@ export default function EmanuelVigelandMuseum() {
               </h2>
             </div>
             <p className="max-w-[360px] text-sm leading-7 text-muted-foreground">
-              Nettsiden var ikke laget for mobil eller tilgjengelighet, og viktige arrangementer levde hovedsakelig på Facebook og Instagram.
+              Den gamle nettsiden var ikke WCAG-godkjent og fremsto som utdatert, med viktige arrangementer som hovedsakelig ble kommunisert på Facebook og Instagram.
             </p>
           </div>
+
+          <figure className="mt-12 overflow-hidden border border-border bg-secondary">
+            <img
+              src={backgroundImage}
+              alt="Skjermbilde av Emanuel Vigeland Museums gamle nettside"
+              className="mx-auto max-h-[620px] w-full object-contain object-top"
+            />
+          </figure>
 
           <div className="mt-12 grid gap-px border border-border bg-border sm:grid-cols-3">
             {focusAreas.map((area) => (
