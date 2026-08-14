@@ -90,14 +90,14 @@ export default function EmanuelVigelandMuseum() {
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="mb-4 text-xs uppercase tracking-[1.2px] text-primary">
-                Prosjektfokus
+                Bakgrunn
               </p>
               <h2 className="font-serif text-3xl font-medium leading-tight text-foreground sm:text-5xl">
-                Fra behov til system
+                Fra 2001 til 100–120 konserter i året
               </h2>
             </div>
             <p className="max-w-[360px] text-sm leading-7 text-muted-foreground">
-              Arbeidet med å gjøre museumsnettstedet mer tilgjengelig og helhetlig.
+              Nettsiden var ikke laget for mobil eller tilgjengelighet, og viktige arrangementer levde hovedsakelig på Facebook og Instagram.
             </p>
           </div>
 
