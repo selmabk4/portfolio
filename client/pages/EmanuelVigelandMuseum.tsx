@@ -69,7 +69,7 @@ export default function EmanuelVigelandMuseum() {
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Min rolle
               </dt>
-              <dd className="text-foreground">Ansvarlig for interaktiv betalingsløsning og MoSCoW-analyse</dd>
+              <dd className="text-foreground">Mobil prototype, interaktiv betalingsløsning og kravprioritering (MoSCoW)</dd>
             </div>
             <div>
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
