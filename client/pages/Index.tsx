@@ -56,7 +56,7 @@ export default function Index() {
             Andre prosjekter
           </h2>
           <span className="hidden text-xs uppercase tracking-[1.2px] text-[#b0a898] sm:inline">
-            Innholdsproduksjon
+            innhold til sosiale medier
           </span>
         </div>
 
@@ -64,7 +64,7 @@ export default function Index() {
           <figure className="order-1 aspect-square w-full max-w-[520px] overflow-hidden bg-background sm:order-1">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
-              alt="Innholdsproduksjon for Fugleadvokatene"
+              alt="innhold til sosiale medier for Fugleadvokatene"
               className="h-full w-full object-cover"
             />
           </figure>
@@ -74,7 +74,7 @@ export default function Index() {
               Fugleadvokatene
             </h3>
             <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-              Innholdsproduksjon
+              innhold til sosiale medier
             </p>
             <p className="mt-6 max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
               Innhold til sosiale medier som opplyser om byfugler og hjelper dem med å finne trygge hjem.
