@@ -80,16 +80,16 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="overflow-x-auto border-t border-border pb-6 pt-6">
-            <div className="flex min-w-max snap-x snap-mandatory gap-4">
-              <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-[380px] sm:w-[380px]">
+          <div className="overflow-x-auto border-t border-border pb-6 pt-6 sm:overflow-visible">
+            <div className="flex min-w-max snap-x snap-mandatory gap-4 sm:grid sm:min-w-0 sm:grid-cols-2">
+              <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-auto sm:w-auto sm:aspect-square">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
                   alt="Innholdsproduksjon for Fugleadvokatene"
                   className="h-full w-full object-cover"
                 />
               </figure>
-              <div className="flex h-[280px] w-[280px] shrink-0 snap-start items-center justify-center bg-primary px-8 sm:h-[380px] sm:w-[380px]">
+              <div className="flex h-[280px] w-[280px] shrink-0 snap-start items-center justify-center bg-primary px-8 sm:h-auto sm:w-auto sm:aspect-square">
                 <p className="max-w-[280px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-6xl">
                   Fugleadvokatene
                 </p>
