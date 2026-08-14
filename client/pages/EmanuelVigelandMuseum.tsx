@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+const setupImage =
+  "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F3c66a6c3a7b34f63bdaaabee00d4ebb2?format=webp&width=800&height=1200";
+
 export default function EmanuelVigelandMuseum() {
   return (
     <article>
@@ -22,6 +25,16 @@ export default function EmanuelVigelandMuseum() {
               utforming og designsystem.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="border-b border-border bg-background">
+        <div className="mx-auto max-w-[896px] px-6 py-10 sm:px-8 sm:py-14">
+          <img
+            src={setupImage}
+            alt="Oppsett for prosjektpresentasjonen"
+            className="mx-auto max-h-[420px] w-full object-contain object-top"
+          />
         </div>
       </section>
 
