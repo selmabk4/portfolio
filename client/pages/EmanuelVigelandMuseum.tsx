@@ -57,10 +57,23 @@ export default function EmanuelVigelandMuseum() {
             </div>
             <div className="border-t border-border pt-4">
               <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
-                Prosjekt
+                Verktøy
               </dt>
-              <dd className="leading-6 text-foreground">
-                Tverrfaglig prosjekt med grafisk designere
+              <dd className="flex items-center gap-3 leading-6 text-foreground">
+                <span
+                  aria-label="Figma"
+                  className="grid h-8 w-8 place-items-center rounded-lg bg-[#1abcfe] text-xs font-bold text-white shadow-sm"
+                  title="Figma"
+                >
+                  F
+                </span>
+                <span
+                  aria-label="Adobe Illustrator"
+                  className="grid h-8 w-8 place-items-center rounded-lg bg-[#330000] text-[10px] font-bold text-[#ff9a00] shadow-sm"
+                  title="Adobe Illustrator"
+                >
+                  Ai
+                </span>
               </dd>
             </div>
             <div className="border-t border-border pt-4">
