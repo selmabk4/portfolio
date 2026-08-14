@@ -55,7 +55,7 @@ export default function EmanuelVigelandMuseum() {
             </p>
             <p className="max-w-[680px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
               Hvordan moderniserer man en nettside fra 2001 for et museum med
-              100 + konserter i året?
+              100+ konserter i året?
             </p>
           </div>
           <dl className="grid grid-cols-2 gap-x-8 gap-y-6 self-start text-sm sm:grid-cols-1 sm:gap-y-8">
@@ -93,7 +93,7 @@ export default function EmanuelVigelandMuseum() {
                 Bakgrunn
               </p>
               <h2 className="font-serif text-3xl font-medium leading-tight text-foreground sm:text-5xl">
-                Fra 2001 til 100 + konserter i året
+                Fra 2001 til 100+ konserter i året
               </h2>
             </div>
             <p className="max-w-[360px] text-sm leading-7 text-muted-foreground">
