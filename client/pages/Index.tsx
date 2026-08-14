@@ -60,41 +60,30 @@ export default function Index() {
           </span>
         </div>
 
-        <article className="mt-10 overflow-hidden border-b border-border sm:mt-14">
-          <div className="grid gap-8 pb-8 sm:grid-cols-[minmax(280px,0.9fr)_minmax(0,1.1fr)] sm:items-start sm:gap-12 sm:pb-10">
-            <div>
-              <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
-                Fugleadvokatene
-              </h3>
-              <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-                Innholdsproduksjon
-              </p>
-              <p className="mt-4 max-w-[430px] text-base leading-[1.625] text-foreground">
-                Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
-                innhold for å spre kunnskap om byfugler og hjelpe skadde eller
-                nødstilte fugler med å finne trygge for-alltid-hjem.
-              </p>
-            </div>
-            <p className="max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
+        <article className="mt-10 grid gap-8 border-b border-border pb-10 sm:mt-14 sm:grid-cols-[minmax(0,0.9fr)_minmax(280px,1.1fr)] sm:gap-16 sm:pb-14">
+          <figure className="order-1 aspect-square w-full max-w-[520px] overflow-hidden bg-background sm:order-1">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
+              alt="Innholdsproduksjon for Fugleadvokatene"
+              className="h-full w-full object-cover"
+            />
+          </figure>
+
+          <div className="order-2 flex flex-col justify-center sm:order-2">
+            <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
+              Fugleadvokatene
+            </h3>
+            <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
+              Innholdsproduksjon
+            </p>
+            <p className="mt-6 max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
               Innhold til sosiale medier som opplyser om byfugler og hjelper dem med å finne trygge hjem.
             </p>
-          </div>
-
-          <div className="overflow-x-auto border-t border-border pb-6 pt-6 sm:ml-auto sm:max-w-[620px] sm:overflow-visible">
-            <div className="flex min-w-max snap-x snap-mandatory gap-4 sm:grid sm:min-w-0 sm:grid-cols-2">
-              <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-auto sm:w-auto sm:aspect-square">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
-                  alt="Innholdsproduksjon for Fugleadvokatene"
-                  className="h-full w-full object-cover"
-                />
-              </figure>
-              <div className="flex h-[280px] w-[280px] shrink-0 snap-start items-center justify-center bg-primary px-6 sm:h-auto sm:w-auto sm:aspect-square">
-                <p className="whitespace-nowrap text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.04em] text-primary-foreground sm:text-5xl">
-                  Fugleadvokatene
-                </p>
-              </div>
-            </div>
+            <p className="mt-6 max-w-[460px] text-base leading-[1.625] text-foreground">
+              Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
+              innhold for å spre kunnskap om byfugler og hjelpe skadde eller
+              nødstilte fugler med å finne trygge for-alltid-hjem.
+            </p>
           </div>
         </article>
       </section>
