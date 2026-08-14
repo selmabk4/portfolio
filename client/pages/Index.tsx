@@ -77,7 +77,7 @@ export default function Index() {
               innhold til sosiale medier
             </p>
             <p className="mt-6 max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
-              Innhold til sosiale medier som opplyser om byfugler og hjelper dem med å finne trygge hjem.
+              Innhold til sosiale medier
             </p>
             <p className="mt-6 max-w-[460px] text-base leading-[1.625] text-foreground">
               Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
