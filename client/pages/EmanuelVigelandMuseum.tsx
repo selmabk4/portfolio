@@ -83,7 +83,7 @@ export default function EmanuelVigelandMuseum() {
               User research
             </p>
             <p className="max-w-[620px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
-              User research ga innsikt i hvordan museet kunne formidle arrangementer og gjøre nettsiden enklere å bruke.
+              Ekskursjon og spørreundersøkelse ga oss innsikt i hvordan museet kunne formidle arrangementer og gjøre nettsiden enklere å bruke.
             </p>
           </div>
         </section>
