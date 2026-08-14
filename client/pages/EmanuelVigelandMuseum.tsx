@@ -51,7 +51,7 @@ export default function EmanuelVigelandMuseum() {
         <div className="mt-16 grid gap-12 border-b border-border pb-16 sm:mt-24 sm:grid-cols-[minmax(0,1fr)_minmax(260px,0.7fr)] sm:gap-16 sm:pb-24">
           <div>
             <p className="mb-5 text-xs uppercase tracking-[1.2px] text-primary">
-              Kort fortalt
+              Utfordring
             </p>
             <p className="max-w-[680px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
               Hvordan moderniserer en nettside fra 2001 for et museum med
