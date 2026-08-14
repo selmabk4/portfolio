@@ -49,6 +49,36 @@ export default function Index() {
       </div>
 
       <FeaturedProjects />
+
+      <section className="mx-auto max-w-[1152px] px-6 pb-16 sm:px-8 sm:pb-24">
+        <div className="flex items-baseline justify-between">
+          <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
+            Andre prosjekter
+          </h2>
+          <span className="hidden text-xs uppercase tracking-[1.2px] text-[#b0a898] sm:inline">
+            Grafisk design
+          </span>
+        </div>
+
+        <article className="mt-12 grid grid-cols-1 border-b border-border sm:mt-16 sm:grid-cols-2">
+          <div className="flex flex-col justify-center gap-4 px-0 py-8 sm:px-10 sm:py-14">
+            <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
+              Fugleadvokatene
+            </h3>
+            <p className="-mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
+              Grafisk design
+            </p>
+            <p className="max-w-[452px] text-base leading-[1.625] text-foreground">
+              Grafisk designarbeid for Fugleadvokatene.
+            </p>
+          </div>
+          <div className="flex min-h-[240px] items-center justify-center overflow-hidden bg-primary px-8 py-12 sm:min-h-[320px]">
+            <p className="max-w-[360px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-6xl">
+              Fugleadvokatene
+            </p>
+          </div>
+        </article>
+      </section>
     </div>
   );
 }
