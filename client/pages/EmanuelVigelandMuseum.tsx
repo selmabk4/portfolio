@@ -5,17 +5,6 @@ const heroImage =
 const backgroundImage =
   "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9535e50d3826407b876c8218492156ac?format=webp&width=800&height=1200";
 
-const focusAreas = [
-  {
-    title: "Universell utforming",
-    text: "Struktur og løsninger med fokus på at flere skal kunne bruke nettsiden.",
-  },
-  {
-    title: "Designsystem",
-    text: "Et tydelig visuelt fundament som gjør innholdet lettere å videreutvikle.",
-  },
-];
-
 export default function EmanuelVigelandMuseum() {
   return (
     <article>
@@ -88,41 +77,23 @@ export default function EmanuelVigelandMuseum() {
           </dl>
         </div>
 
-        <section className="py-16 sm:py-24">
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="mb-4 text-xs uppercase tracking-[1.2px] text-primary">
-                Bakgrunn
-              </p>
-              <h2 className="font-serif text-3xl font-medium leading-tight text-foreground sm:text-5xl">
-                Fra 2001 til 100+ konserter i året
-              </h2>
-            </div>
-            <p className="max-w-[360px] text-sm leading-7 text-muted-foreground">
+        <section className="border-b border-border py-16 sm:py-24">
+          <div className="grid gap-8 sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] sm:items-start sm:gap-16">
+            <p className="text-xs uppercase tracking-[1.2px] text-primary">
+              Bakgrunn
+            </p>
+            <p className="max-w-[620px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
               Den gamle nettsiden var ikke WCAG-godkjent og fremsto som utdatert, med viktige arrangementer som hovedsakelig ble kommunisert på Facebook og Instagram.
             </p>
           </div>
 
-          <figure className="mt-12 overflow-hidden border border-border bg-secondary">
+          <figure className="mt-12 overflow-hidden border border-border bg-secondary sm:mt-16">
             <img
               src={backgroundImage}
               alt="Skjermbilde av Emanuel Vigeland Museums gamle nettside"
               className="mx-auto max-h-[620px] w-full object-contain object-top"
             />
           </figure>
-
-          <div className="mt-12 grid gap-px border border-border bg-border sm:grid-cols-3">
-            {focusAreas.map((area) => (
-              <div key={area.title} className="bg-background p-6 sm:p-8">
-                <h3 className="font-serif text-2xl font-medium text-foreground">
-                  {area.title}
-                </h3>
-                <p className="mt-5 text-sm leading-7 text-muted-foreground">
-                  {area.text}
-                </p>
-              </div>
-            ))}
-          </div>
         </section>
 
         <div className="border-t border-border pt-8">
