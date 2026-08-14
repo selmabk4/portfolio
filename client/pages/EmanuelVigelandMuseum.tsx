@@ -29,14 +29,14 @@ export default function EmanuelVigelandMuseum() {
         <header className="mt-16 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-12">
           <div>
             <p className="mb-4 text-xs uppercase tracking-[1.2px] text-primary">
-              Tverrfaglig prosjekt 2026
+              Tverrfaglig prosjekt, vår 2026
             </p>
             <h1 className="max-w-[760px] font-serif text-4xl font-medium leading-[1.08] tracking-[-0.02em] text-foreground sm:text-6xl lg:text-[76px]">
               Emanuel Vigeland Museum
             </h1>
           </div>
           <p className="max-w-[260px] text-sm leading-7 text-muted-foreground lg:pb-2">
-            UX / Designsystem 2026
+            UX / Designsystem, vår 2026
           </p>
         </header>
 
@@ -69,7 +69,7 @@ export default function EmanuelVigelandMuseum() {
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 År
               </dt>
-              <dd className="text-foreground">2026</dd>
+              <dd className="text-foreground">Vår 2026</dd>
             </div>
             <div>
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
