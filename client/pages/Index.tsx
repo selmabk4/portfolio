@@ -4,7 +4,7 @@ import FeaturedProjects from "@/components/FeaturedProjects";
 export default function Index() {
   return (
     <div>
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden border-b border-border">
         <GradientBlob
           id="blob-hero"
           className="hero-bubble hero-bubble-large pointer-events-none absolute -right-16 -top-20 hidden w-[220px] rounded-full opacity-50 sm:block sm:w-[280px] lg:-right-6 lg:-top-24 lg:w-[380px]"
@@ -50,7 +50,7 @@ export default function Index() {
 
       <FeaturedProjects />
 
-      <section className="mx-auto max-w-[1152px] px-6 pb-16 sm:px-8 sm:pb-24">
+      <section className="mx-auto max-w-[1152px] border-t border-border px-6 pb-16 pt-16 sm:px-8 sm:pb-24 sm:pt-20 lg:pt-24">
         <div className="flex items-baseline justify-between">
           <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
             Andre prosjekter
@@ -60,29 +60,35 @@ export default function Index() {
           </span>
         </div>
 
-        <article className="mt-12 grid grid-cols-1 border-b border-border sm:mt-16 sm:grid-cols-2">
-          <div className="flex flex-col justify-center gap-4 px-0 py-8 sm:px-10 sm:py-14">
-            <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
-              Fugleadvokatene
-            </h3>
-            <p className="-mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-              Grafisk design
-            </p>
-            <p className="max-w-[452px] text-base leading-[1.625] text-foreground">
-              Grafisk designarbeid for Fugleadvokatene.
+        <article className="mt-10 overflow-hidden border-b border-border sm:mt-14">
+          <div className="grid gap-8 pb-8 sm:grid-cols-[minmax(220px,0.7fr)_minmax(0,1.3fr)] sm:items-end sm:gap-16 sm:pb-10">
+            <div>
+              <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
+                Fugleadvokatene
+              </h3>
+              <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
+                Grafisk design
+              </p>
+              <p className="mt-4 max-w-[360px] text-base leading-[1.625] text-foreground">
+                Grafisk designarbeid for Fugleadvokatene.
+              </p>
+            </div>
+            <p className="max-w-[620px] font-serif text-2xl leading-[1.35] text-primary sm:text-[32px]">
+              Visuell kommunikasjon for fugler som trenger et hjem.
             </p>
           </div>
-          <div className="min-h-[240px] overflow-x-auto bg-primary/10 p-4 sm:min-h-[320px] sm:p-6">
-            <div className="flex h-full min-w-max snap-x snap-mandatory gap-4">
-              <div className="h-full w-[260px] shrink-0 snap-start overflow-hidden bg-background sm:w-[360px]">
+
+          <div className="overflow-x-auto border-t border-border pb-6 pt-6">
+            <div className="flex min-w-max snap-x snap-mandatory gap-4">
+              <figure className="h-[280px] w-[280px] shrink-0 snap-start overflow-hidden bg-background sm:h-[380px] sm:w-[380px]">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
                   alt="Grafisk designinnlegg for Fugleadvokatene"
                   className="h-full w-full object-cover"
                 />
-              </div>
-              <div className="flex h-full w-[220px] shrink-0 snap-start items-center justify-center bg-primary px-6 sm:w-[280px]">
-                <p className="max-w-[220px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-5xl">
+              </figure>
+              <div className="flex h-[280px] w-[280px] shrink-0 snap-start items-center justify-center bg-primary px-8 sm:h-[380px] sm:w-[380px]">
+                <p className="max-w-[280px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-6xl">
                   Fugleadvokatene
                 </p>
               </div>

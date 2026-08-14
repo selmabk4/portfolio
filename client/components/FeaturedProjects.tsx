@@ -50,7 +50,7 @@ export default function FeaturedProjects() {
   return (
     <section
       id="prosjekter"
-      className="mx-auto max-w-[1152px] px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
+      className="mx-auto max-w-[1152px] border-t border-border px-6 py-16 sm:px-8 sm:py-20 lg:py-24"
     >
       <div className="flex items-baseline justify-between">
         <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
