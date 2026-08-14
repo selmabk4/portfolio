@@ -60,20 +60,16 @@ export default function EmanuelVigelandMuseum() {
                 Verktøy
               </dt>
               <dd className="flex items-center gap-3 leading-6 text-foreground">
-                <span
-                  aria-label="Figma"
-                  className="grid h-8 w-8 place-items-center rounded-lg bg-[#1abcfe] text-xs font-bold text-white shadow-sm"
-                  title="Figma"
-                >
-                  F
-                </span>
-                <span
-                  aria-label="Adobe Illustrator"
-                  className="grid h-8 w-8 place-items-center rounded-lg bg-[#330000] text-[10px] font-bold text-[#ff9a00] shadow-sm"
-                  title="Adobe Illustrator"
-                >
-                  Ai
-                </span>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200"
+                  alt="Figma"
+                  className="h-8 w-8 rounded-lg object-cover shadow-sm"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F4992bd0e7acb45518dc5ec6d23eb8ba4?format=webp&width=800&height=1200"
+                  alt="Adobe Illustrator"
+                  className="h-8 w-8 rounded-lg object-cover shadow-sm"
+                />
               </dd>
             </div>
             <div className="border-t border-border pt-4">
