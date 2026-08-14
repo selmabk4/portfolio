@@ -71,8 +71,8 @@ export default function Index() {
               </p>
               <p className="mt-4 max-w-[360px] text-base leading-[1.625] text-foreground">
                 Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
-                innhold for å spre informativ kunnskap og hjelpe hjemløse fugler
-                med å finne nye hjem.
+                innhold for å spre kunnskap om byfugler og hjelpe skadde eller
+                nødstilte fugler med å finne trygge for-alltid-hjem.
               </p>
             </div>
             <p className="max-w-[620px] font-serif text-2xl leading-[1.35] text-primary sm:text-[32px]">
