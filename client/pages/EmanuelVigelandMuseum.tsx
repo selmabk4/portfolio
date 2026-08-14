@@ -5,12 +5,12 @@ const heroImage =
 
 const focusAreas = [
   {
-    title: "Universell utforming",
-    text: "Struktur og løsninger med fokus på at flere skal kunne bruke nettsiden.",
+    title: "Betalingsløsning",
+    text: "Utvikle en løsning som gjør betalingsflyten tydelig og enkel å forstå.",
   },
   {
-    title: "Designsystem",
-    text: "Et tydelig visuelt fundament som gjør innholdet lettere å videreutvikle.",
+    title: "Fungerende prototype",
+    text: "Gjøre ideen konkret gjennom en prototype som kan prøves og vurderes.",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function EmanuelVigelandMuseum() {
             </h1>
           </div>
           <p className="max-w-[260px] text-sm leading-7 text-muted-foreground lg:pb-2">
-            UX / Designsystem, vår 2026
+            Betalingsløsning / Prototype, vår 2026
           </p>
         </header>
 
@@ -54,8 +54,8 @@ export default function EmanuelVigelandMuseum() {
               Om prosjektet
             </p>
             <p className="max-w-[680px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
-              Redesign av Emanuel Vigeland museets nettside, med vektleggelse av
-              designsystem og universell utforming.
+              Et tverrfaglig prosjekt med studenter fra Grafisk design. Mitt fokus
+              var å lage en fungerende prototype på en betalingsløsning.
             </p>
           </div>
           <dl className="grid grid-cols-2 gap-x-8 gap-y-6 self-start text-sm sm:grid-cols-1 sm:gap-y-8">
@@ -67,6 +67,18 @@ export default function EmanuelVigelandMuseum() {
             </div>
             <div>
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
+                Samarbeid
+              </dt>
+              <dd className="text-foreground">Studenter fra Grafisk design</dd>
+            </div>
+            <div>
+              <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
+                Rolle
+              </dt>
+              <dd className="text-foreground">Prototype på betalingsløsning</dd>
+            </div>
+            <div>
+              <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 År
               </dt>
               <dd className="text-foreground">Vår 2026</dd>
@@ -75,7 +87,7 @@ export default function EmanuelVigelandMuseum() {
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Fokus
               </dt>
-              <dd className="text-foreground">Universell utforming og designsystem</dd>
+              <dd className="text-foreground">Betalingsløsning og prototype</dd>
             </div>
           </dl>
         </div>
@@ -87,11 +99,11 @@ export default function EmanuelVigelandMuseum() {
                 Prosjektfokus
               </p>
               <h2 className="font-serif text-3xl font-medium leading-tight text-foreground sm:text-5xl">
-                Fra retning til løsning
+                Fra behov til prototype
               </h2>
             </div>
             <p className="max-w-[360px] text-sm leading-7 text-muted-foreground">
-              To sentrale deler av arbeidet med museumsnettstedet.
+              Arbeidet med å utvikle og konkretisere betalingsløsningen.
             </p>
           </div>
 
