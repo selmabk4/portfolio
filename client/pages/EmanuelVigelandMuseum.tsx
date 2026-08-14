@@ -71,7 +71,7 @@ export default function EmanuelVigelandMuseum() {
               Bakgrunn
             </p>
             <p className="max-w-[620px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
-              Den gamle nettsiden var ikke WCAG-godkjent og fremsto som utdatert, med viktige arrangementer som hovedsakelig ble kommunisert på Facebook og Instagram.
+              Den gamle nettsiden oppfylte ikke WCAG-kravene og var utdatert. Nettsiden gjenspeilet heller ikke museets faktiske aktivitetsnivå med tanke på alle arrangementene.
             </p>
           </div>
 
