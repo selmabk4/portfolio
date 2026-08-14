@@ -40,14 +40,6 @@ export default function EmanuelVigelandMuseum() {
           <dl className="mt-12 grid gap-x-6 gap-y-10 text-sm sm:grid-cols-2 lg:grid-cols-4">
             <div className="border-t border-border pt-4">
               <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
-                Prosjekt
-              </dt>
-              <dd className="leading-6 text-foreground">
-                Tverrfaglig prosjekt med grafisk designere
-              </dd>
-            </div>
-            <div className="border-t border-border pt-4">
-              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Min rolle
               </dt>
               <dd className="leading-6 text-foreground">
@@ -57,17 +49,25 @@ export default function EmanuelVigelandMuseum() {
             </div>
             <div className="border-t border-border pt-4">
               <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
-                År
-              </dt>
-              <dd className="leading-6 text-foreground">Vår 2026</dd>
-            </div>
-            <div className="border-t border-border pt-4">
-              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Fokus
               </dt>
               <dd className="leading-6 text-foreground">
                 Universell utforming og designsystem
               </dd>
+            </div>
+            <div className="border-t border-border pt-4">
+              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
+                Prosjekt
+              </dt>
+              <dd className="leading-6 text-foreground">
+                Tverrfaglig prosjekt med grafisk designere
+              </dd>
+            </div>
+            <div className="border-t border-border pt-4">
+              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
+                Tidsramme
+              </dt>
+              <dd className="leading-6 text-foreground">10 uker</dd>
             </div>
           </dl>
         </section>
