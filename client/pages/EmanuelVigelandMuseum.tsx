@@ -77,6 +77,17 @@ export default function EmanuelVigelandMuseum() {
 
         </section>
 
+        <section className="border-b border-border py-16 sm:py-24">
+          <div className="grid gap-8 sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] sm:items-start sm:gap-16">
+            <p className="text-xs uppercase tracking-[1.2px] text-primary">
+              User research
+            </p>
+            <p className="max-w-[620px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
+              User research ga innsikt i hvordan museet kunne formidle arrangementer og gjøre nettsiden enklere å bruke.
+            </p>
+          </div>
+        </section>
+
         <div className="border-t border-border pt-8">
           <Link
             to="/#prosjekter"
