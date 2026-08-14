@@ -72,10 +72,21 @@ export default function Index() {
               Grafisk designarbeid for Fugleadvokatene.
             </p>
           </div>
-          <div className="flex min-h-[240px] items-center justify-center overflow-hidden bg-primary px-8 py-12 sm:min-h-[320px]">
-            <p className="max-w-[360px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-6xl">
-              Fugleadvokatene
-            </p>
+          <div className="min-h-[240px] overflow-x-auto bg-primary/10 p-4 sm:min-h-[320px] sm:p-6">
+            <div className="flex h-full min-w-max snap-x snap-mandatory gap-4">
+              <div className="h-full w-[260px] shrink-0 snap-start overflow-hidden bg-background sm:w-[360px]">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
+                  alt="Grafisk designinnlegg for Fugleadvokatene"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="flex h-full w-[220px] shrink-0 snap-start items-center justify-center bg-primary px-6 sm:w-[280px]">
+                <p className="max-w-[220px] text-center font-serif text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-primary-foreground sm:text-5xl">
+                  Fugleadvokatene
+                </p>
+              </div>
+            </div>
           </div>
         </article>
       </section>
