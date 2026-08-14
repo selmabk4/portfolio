@@ -44,15 +44,6 @@ const projects: Project[] = [
       "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Interiør fra en restaurant",
   },
-  {
-    title: "Prosjekt 5",
-    category: "UX / Research 2024",
-    description:
-      "Kort beskrivelse av prosjektet — hva du gjorde og hvilken verdi det skapte.",
-    image:
-      "https://images.unsplash.com/photo-1587440871875-191322ee64b0?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Skisse tegnet på et nettbrett",
-  },
 ];
 
 export default function FeaturedProjects() {
