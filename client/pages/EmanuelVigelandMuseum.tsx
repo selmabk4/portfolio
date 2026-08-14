@@ -57,6 +57,12 @@ export default function EmanuelVigelandMuseum() {
             </div>
             <div className="border-t border-border pt-4">
               <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
+                Tidsramme
+              </dt>
+              <dd className="leading-6 text-foreground">10 uker</dd>
+            </div>
+            <div className="border-t border-border pt-4">
+              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Verktøy
               </dt>
               <dd className="flex items-center gap-3 leading-6 text-foreground">
@@ -71,12 +77,6 @@ export default function EmanuelVigelandMuseum() {
                   className="h-8 w-8 rounded-lg object-cover shadow-sm"
                 />
               </dd>
-            </div>
-            <div className="border-t border-border pt-4">
-              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">
-                Tidsramme
-              </dt>
-              <dd className="leading-6 text-foreground">10 uker</dd>
             </div>
           </dl>
         </section>
