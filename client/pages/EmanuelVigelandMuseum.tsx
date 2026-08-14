@@ -54,7 +54,7 @@ export default function EmanuelVigelandMuseum() {
               Kort fortalt
             </p>
             <p className="max-w-[680px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
-              Hvordan moderniserer man en nettside fra 2001 for et museum med
+              Hvordan moderniserer en nettside fra 2001 for et museum med
               100+ konserter i året?
             </p>
           </div>
