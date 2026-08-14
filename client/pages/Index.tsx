@@ -61,7 +61,7 @@ export default function Index() {
         </div>
 
         <article className="mt-10 overflow-hidden border-b border-border sm:mt-14">
-          <div className="grid gap-8 pb-8 sm:grid-cols-[minmax(220px,0.7fr)_minmax(0,1.3fr)] sm:items-end sm:gap-16 sm:pb-10">
+          <div className="grid gap-8 pb-8 sm:grid-cols-[minmax(220px,0.7fr)_minmax(0,1.3fr)] sm:items-start sm:gap-20 sm:pb-10">
             <div>
               <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
                 Fugleadvokatene
@@ -75,8 +75,8 @@ export default function Index() {
                 nødstilte fugler med å finne trygge for-alltid-hjem.
               </p>
             </div>
-            <p className="max-w-[620px] font-serif text-2xl leading-[1.35] text-primary sm:text-[32px]">
-              Visuell kommunikasjon for fugler som trenger et hjem.
+            <p className="max-w-[560px] font-serif text-2xl leading-[1.35] text-primary sm:text-[32px]">
+              Innhold til sosiale medier som opplyser om byfugler og hjelper dem med å finne trygge hjem.
             </p>
           </div>
 
