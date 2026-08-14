@@ -51,37 +51,35 @@ export default function Index() {
       <FeaturedProjects />
 
       <section className="mx-auto max-w-[1152px] border-t border-border px-6 pb-16 pt-16 sm:px-8 sm:pb-24 sm:pt-20 lg:pt-24">
-        <div className="flex items-baseline justify-between">
-          <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
-            Andre prosjekter
-          </h2>
-        </div>
+        <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
+          Andre prosjekter
+        </h2>
 
-        <article className="mt-10 grid gap-8 border-b border-border pb-10 sm:mt-14 sm:grid-cols-[minmax(280px,1.1fr)_minmax(0,0.9fr)] sm:items-stretch sm:gap-16 sm:pb-14">
-          <figure className="order-2 aspect-square w-full max-w-[520px] overflow-hidden bg-background sm:order-2">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
-              alt="innhold til sosiale medier for Fugleadvokatene"
-              className="h-full w-full object-cover"
-            />
-          </figure>
-
-          <div className="order-1 flex h-full flex-col justify-center sm:order-1">
+        <article className="mt-10 grid border-b border-border sm:mt-14 sm:grid-cols-2">
+          <div className="order-1 flex min-h-[360px] flex-col justify-center px-0 py-2 sm:order-1 sm:min-h-0 sm:px-10 sm:py-12 lg:px-14">
             <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
               Fugleadvokatene
             </h3>
             <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
               Innholdsproduksjon
             </p>
-            <p className="mt-6 max-w-[520px] font-serif text-2xl leading-[1.32] text-primary sm:text-[30px]">
+            <p className="mt-7 max-w-[420px] font-serif text-2xl leading-[1.28] text-primary sm:text-[30px]">
               Visuell kommunikasjon for nødstilte byfugler
             </p>
-            <p className="mt-6 max-w-[460px] text-base leading-[1.625] text-foreground">
+            <p className="mt-6 max-w-[430px] text-base leading-[1.625] text-foreground">
               Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
               innhold for å spre kunnskap om byfugler og hjelpe skadde eller
               nødstilte fugler med å finne trygge for-alltid-hjem.
             </p>
           </div>
+
+          <figure className="order-2 aspect-[4/3] overflow-hidden bg-background sm:order-2 sm:aspect-auto sm:min-h-[360px]">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
+              alt="innhold til sosiale medier for Fugleadvokatene"
+              className="h-full w-full object-cover"
+            />
+          </figure>
         </article>
       </section>
     </div>
