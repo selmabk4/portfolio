@@ -63,7 +63,7 @@ export default function EmanuelVigelandMuseum() {
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
                 Prosjekt
               </dt>
-              <dd className="text-foreground">Tverrfaglig prosjekt med Grafisk designere</dd>
+              <dd className="text-foreground">Tverrfaglig prosjekt med grafisk designere</dd>
             </div>
             <div>
               <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-muted-foreground">
