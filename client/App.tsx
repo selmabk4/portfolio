@@ -9,6 +9,7 @@ import Layout from "@/components/Layout";
 import Index from "./pages/Index";
 import Placeholder from "./pages/Placeholder";
 import EmanuelVigelandMuseum from "./pages/EmanuelVigelandMuseum";
+import FeaturedProjects from "./components/FeaturedProjects";
 import OmMeg from "./pages/OmMeg";
 import NotFound from "./pages/NotFound";
 
@@ -23,7 +24,11 @@ export const App = () => (
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/prosjekter" element={<EmanuelVigelandMuseum />} />
+            <Route path="/prosjekter" element={<FeaturedProjects />} />
+            <Route
+              path="/prosjekter/emanuel-vigeland-museum"
+              element={<EmanuelVigelandMuseum />}
+            />
             <Route path="/om-meg" element={<OmMeg />} />
             <Route path="/kontakt" element={<Placeholder title="Kontakt" />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
