@@ -35,7 +35,7 @@ export default function EmanuelVigelandMuseum() {
           <img
             src={heroImage}
             alt="Emanuel Vigeland Museum nettsidedesign"
-            className="h-[420px] w-full object-cover object-top sm:h-[620px] lg:h-[760px]"
+            className="h-[320px] w-full object-cover object-top sm:h-[480px] lg:h-[600px]"
           />
         </div>
 
@@ -91,7 +91,7 @@ export default function EmanuelVigelandMuseum() {
             <img
               src={backgroundImage}
               alt="Skjermbilde av Emanuel Vigeland Museums gamle nettside"
-              className="mx-auto max-h-[620px] w-full object-contain object-top"
+              className="mx-auto max-h-[440px] w-full object-contain object-top"
             />
           </figure>
         </section>
