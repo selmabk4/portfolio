@@ -14,9 +14,6 @@ export default function EmanuelVigelandMuseum() {
           </Link>
 
           <div className="mt-20 max-w-[620px] sm:mt-24">
-            <p className="mb-5 text-xs uppercase tracking-[1.2px] text-primary-foreground/80">
-              Tverrfaglig prosjekt, vår 2026
-            </p>
             <h1 className="font-serif text-4xl font-medium leading-[1.08] tracking-[-0.02em] sm:text-6xl lg:text-[72px]">
               Emanuel Vigeland Museum
             </h1>
