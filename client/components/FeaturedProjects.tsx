@@ -23,7 +23,7 @@ const projects: Project[] = [
     category: "UX / Fintech 2026",
     description: "Internship 2026 — UX-arbeid for PayoutPartner.",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fdd5a4f67951549ed9d8ed4b0717407a3?format=webp&width=800&height=1200",
+      "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F7a44ff8f4df74fb28fdae96a17af8c78?format=webp&width=800&height=1200",
     imageAlt: "PayoutPartner-grensesnitt vist på laptop, mobil og nettbrett",
   },
   {
