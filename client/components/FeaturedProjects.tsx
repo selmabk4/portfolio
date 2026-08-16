@@ -111,7 +111,11 @@ export default function FeaturedProjects() {
                   to={
                     index === 0
                       ? "/prosjekter/emanuel-vigeland-museum"
-                      : "/prosjekter"
+                      : index === 1
+                        ? "/prosjekter/payoutpartner"
+                        : index === 2
+                          ? "/prosjekter/siminnlandet"
+                          : "/prosjekter/tjonnas-og-norvald"
                   }
                   className="mt-2 inline-flex w-fit items-center gap-3 border border-foreground px-[17.6px] py-[8.8px] text-xs uppercase tracking-[1.2px] text-foreground transition-colors hover:border-primary hover:bg-primary hover:text-primary-foreground"
                 >

@@ -9,6 +9,9 @@ import Layout from "@/components/Layout";
 import Index from "./pages/Index";
 import Placeholder from "./pages/Placeholder";
 import EmanuelVigelandMuseum from "./pages/EmanuelVigelandMuseum";
+import PayoutPartner from "./pages/PayoutPartner";
+import SIMInnlandet from "./pages/SIMInnlandet";
+import TjonnasOgNorvald from "./pages/TjonnasOgNorvald";
 import FeaturedProjects from "./components/FeaturedProjects";
 import OmMeg from "./pages/OmMeg";
 import NotFound from "./pages/NotFound";
@@ -28,6 +31,12 @@ export const App = () => (
             <Route
               path="/prosjekter/emanuel-vigeland-museum"
               element={<EmanuelVigelandMuseum />}
+            />
+            <Route path="/prosjekter/payoutpartner" element={<PayoutPartner />} />
+            <Route path="/prosjekter/siminnlandet" element={<SIMInnlandet />} />
+            <Route
+              path="/prosjekter/tjonnas-og-norvald"
+              element={<TjonnasOgNorvald />}
             />
             <Route path="/om-meg" element={<OmMeg />} />
             <Route path="/kontakt" element={<Placeholder title="Kontakt" />} />
