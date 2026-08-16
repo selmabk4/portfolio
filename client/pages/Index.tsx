@@ -75,7 +75,7 @@ export default function Index() {
 
           <figure className="order-2 aspect-[4/3] overflow-hidden bg-background sm:order-2 sm:aspect-auto sm:min-h-[360px]">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F10ef3bcfaa424a5aa14b34420e10bfaf?format=webp&width=800&height=1200"
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F01f53c0f80d840f38fa23cd685dff678?format=webp&width=800&height=1200"
               alt="innhold til sosiale medier for Fugleadvokatene"
               className="h-full w-full object-cover"
             />
