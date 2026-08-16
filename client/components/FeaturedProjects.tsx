@@ -23,8 +23,8 @@ const projects: Project[] = [
     category: "UX / Fintech 2026",
     description: "Internship 2026 — UX-arbeid for PayoutPartner.",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Betaling med kort ved en bærbar datamaskin",
+      "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fdd5a4f67951549ed9d8ed4b0717407a3?format=webp&width=800&height=1200",
+    imageAlt: "PayoutPartner-grensesnitt vist på laptop, mobil og nettbrett",
   },
   {
     title: "SIMInnlandet",
