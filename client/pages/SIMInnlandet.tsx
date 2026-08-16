@@ -8,6 +8,8 @@ const project: ProjectDetailData = {
   focus: "Opplæring gjennom VR-simulering",
   timeframe: "2025",
   tools: "Figma",
+  toolIcon:
+    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200",
   background: "Sykehuset i Innlandet ønsket en mer praktisk og nærværende måte å trene helsepersonell på før de møter situasjoner i arbeidshverdagen.",
   research: "Arbeidet tok utgangspunkt i behovene til helsepersonell og hvordan en simulering kunne gjøre læringen tydelig, trygg og relevant.",
 };
