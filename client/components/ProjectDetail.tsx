@@ -10,6 +10,8 @@ export interface ProjectDetailData {
   tools: string;
   toolIcon?: string;
   toolIconAlt?: string;
+  secondaryToolIcon?: string;
+  secondaryToolIconAlt?: string;
   introHeading?: string;
   background: string;
   research: string;
@@ -73,6 +75,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   />
                 ) : null}
                 {project.tools ? <span>{project.tools}</span> : null}
+                {project.secondaryToolIcon ? (
+                  <img
+                    src={project.secondaryToolIcon}
+                    alt={project.secondaryToolIconAlt ?? "Claude"}
+                    className="h-8 w-8 rounded-lg object-cover shadow-sm"
+                  />
+                ) : null}
               </dd>
             </div>
           </dl>
