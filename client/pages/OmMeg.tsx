@@ -90,7 +90,7 @@ export default function OmMeg() {
                 detail="Følger produktene fra de ankommer butikken til de overlates til kundene. Arbeidet inkluderer salg, kampanjearbeid, kundeservice, rydding og stengeansvar."
               />
               <Entry
-                title="REMA 1000 Kanalveien"
+                title="REMA 1000 Lillestrøm"
                 meta="Butikkmedarbeider · apr. 2022 — jul. 2024"
                 detail="Arbeidet omfattet kassearbeid, varepåfylling, mersalg, kundeservice og åpningsansvar i ferier. Stillingen ga god erfaring med problemløsning, stressmestring og effektivitet i et hektisk miljø."
               />
