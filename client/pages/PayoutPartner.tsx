@@ -12,7 +12,7 @@ const project: ProjectDetailData = {
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200",
   toolIconAlt: "Figma",
   secondaryToolIcon:
-    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F0327dca671904d729d5cde79428fe511?format=webp&width=800&height=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F609ab4c8eeae4bbd974c98746c14388c?format=webp&width=800&height=1200",
   secondaryToolIconAlt: "Claude",
   introHeading: "Praksisplass 2026",
   background: "PayoutPartner hadde behov for å forstå brukernes utfordringer bedre og gjøre verdien av tjenesten enklere å kommunisere.",
