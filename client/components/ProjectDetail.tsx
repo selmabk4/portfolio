@@ -79,7 +79,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <img
                     src={project.secondaryToolIcon}
                     alt={project.secondaryToolIconAlt ?? "Claude"}
-                    className="h-8 w-8 rounded-lg object-contain shadow-sm"
+                    className="h-14 w-16 rounded-lg object-contain shadow-sm"
                   />
                 ) : null}
               </dd>
