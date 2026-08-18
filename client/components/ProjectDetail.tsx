@@ -9,6 +9,7 @@ export interface ProjectDetailData {
   timeframe: string;
   tools: string;
   toolIcon?: string;
+  toolIconAlt?: string;
   introHeading?: string;
   background: string;
   research: string;
@@ -67,11 +68,11 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 {project.toolIcon ? (
                   <img
                     src={project.toolIcon}
-                    alt="Figma"
+                    alt={project.toolIconAlt ?? "Figma"}
                     className="h-8 w-8 rounded-lg object-cover shadow-sm"
                   />
                 ) : null}
-                <span>{project.tools}</span>
+                {project.tools ? <span>{project.tools}</span> : null}
               </dd>
             </div>
           </dl>
