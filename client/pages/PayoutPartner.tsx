@@ -10,6 +10,7 @@ const project: ProjectDetailData = {
   tools: "Figma",
   toolIcon:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200",
+  introHeading: "Praksisplass 2026",
   background: "PayoutPartner hadde behov for å forstå brukernes utfordringer bedre og gjøre verdien av tjenesten enklere å kommunisere.",
   research: "Innsiktsarbeid ga retning for nye faktureringsforslag og redesign av markedsføringssiden.",
 };

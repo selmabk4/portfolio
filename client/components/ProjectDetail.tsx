@@ -9,6 +9,7 @@ export interface ProjectDetailData {
   timeframe: string;
   tools: string;
   toolIcon?: string;
+  introHeading?: string;
   background: string;
   research: string;
 }
@@ -40,7 +41,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
       <div className="mx-auto max-w-[896px] px-6 pb-20 sm:px-8 sm:pb-28">
         <section className="border-b border-border py-16 sm:py-24">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
-            Om prosjektet
+            {project.introHeading ?? "Om prosjektet"}
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
           <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
