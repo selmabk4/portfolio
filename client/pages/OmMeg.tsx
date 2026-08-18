@@ -79,24 +79,52 @@ export default function OmMeg() {
           <div>
             <p className="mb-6 text-[12px] uppercase tracking-[1.2px] text-[#6e8fa3]">Arbeidserfaring</p>
             <div className="space-y-6">
-              <Entry title="Skiwo / PayoutPartner" meta="Interaksjonsdesigner · Praksisplass · jun. 2026 — aug. 2026" detail="UX-arbeid som interaksjonsdesigner for PayoutPartner gjennom Skiwo." />
-              <Entry title="Lindex" meta="Selger · Deltid · okt. 2024 — nå · Gjøvik" />
-              <Entry title="REMA 1000" meta="Butikkmedarbeider · Deltid · mar. 2022 — jul. 2024 · Lillestrøm" />
+              <Entry
+                title="Skiwo / PayoutPartner"
+                meta="Interaksjonsdesigner · Praksisplass · jun. 2026 — aug. 2026"
+                detail="Gjennomførte brukerinnsikt og konseptutvikling for nye faktureringsløsninger. Jobbet med hele designprosessen, fra behovskartlegging til ferdige grensesnitt og prototyper. Designet også ny markedsføringsside, nyhetsbrev og presentasjoner til internt bruk."
+              />
+              <Entry
+                title="Lindex CC Gjøvik"
+                meta="Selger · Deltid · okt. 2024 — nå · Gjøvik"
+                detail="Følger produktene fra de ankommer butikken til de overlates til kundene. Arbeidet inkluderer salg, kampanjearbeid, kundeservice, rydding og stengeansvar."
+              />
+              <Entry
+                title="REMA 1000 Kanalveien"
+                meta="Butikkmedarbeider · apr. 2022 — jul. 2024"
+                detail="Arbeidet omfattet kassearbeid, varepåfylling, mersalg, kundeservice og åpningsansvar i ferier. Stillingen ga god erfaring med problemløsning, stressmestring og effektivitet i et hektisk miljø."
+              />
             </div>
           </div>
           <div className="space-y-8">
             <div>
               <p className="mb-6 text-[12px] uppercase tracking-[1.2px] text-[#6e8fa3]">Utdanning</p>
               <div className="space-y-6">
-                <Entry title="NTNU" meta="Bachelor's degree, Interaksjonsdesign · 2024 — 2027" />
-                <Entry title="Fjellhaug Internasjonale Høgskole" meta="Årsstudium, KRLE · aug. 2023 — jun. 2024" />
+                <Entry
+                  title="NTNU Gjøvik"
+                  meta="Bachelor i interaksjonsdesign · aug. 2024 — jun. 2027"
+                  detail="Utdanningen handler om å danne og forbedre digitale produkter, systemer og tjenester med fokus på brukerbehov, bærekraft og samfunnsnytte. Faglig fokus på brukervennlighet, universell utforming, psykologi, kommunikasjon og tverrfaglig samarbeid."
+                />
+                <Entry
+                  title="Fjellhaug Internasjonale Høgskole"
+                  meta="Årsstudium i KRLE · aug. 2023 — jun. 2024"
+                  detail="Utdanningen ga mangfoldskompetanse og kunnskap om livssyn og religion i det norske samfunnet."
+                />
               </div>
             </div>
             <div>
-              <p className="mb-6 text-[12px] uppercase tracking-[1.2px] text-[#6e8fa3]">Frivillig arbeid</p>
+              <p className="mb-6 text-[12px] uppercase tracking-[1.2px] text-[#6e8fa3]">Annen erfaring</p>
               <div className="space-y-6">
-                <Entry title="Fugleadvokaten" meta="Innholdsproduksjon · aug. 2026 — nå" />
-                <Entry title="NTNU" meta="Referanseassistent · jan. 2025 — mai 2025" detail="IDG1004 – Farge i grensesnittdesign" />
+                <Entry
+                  title="Fugleadvokatene"
+                  meta="Frivillig innholdsprodusent · fra aug. 2026"
+                  detail="Utformer innhold for å spre kunnskap om byfugler og hjelpe skadde eller nødstilte fugler med å finne trygge for-alltid-hjem."
+                />
+                <Entry
+                  title="NTNU"
+                  meta="Referanseassistent · jan. 2025 — mai 2025"
+                  detail="Referanseassistent i emnet Farge i grensesnittdesign (IDG1004)."
+                />
               </div>
             </div>
           </div>
