@@ -41,8 +41,8 @@ const projects: Project[] = [
     description:
       "Nettsider for desktop og mobil, med både booking og bestillingssystem basert på kundebehov.",
     image:
-      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Interiør fra en restaurant",
+      "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F457a9b662a69488db1a427a329615c68?format=webp&width=800&height=1200",
+    imageAlt: "Mobilnettsider for Tjønnås Delikatesse og Norvald Kafé",
   },
 ];
 
