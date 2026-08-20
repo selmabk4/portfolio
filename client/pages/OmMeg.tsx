@@ -103,7 +103,7 @@ export default function OmMeg() {
                 <Entry
                   title="NTNU Gjøvik"
                   meta="Bachelor i interaksjonsdesign · aug. 2024 — jun. 2027"
-                  detail="Utdanningen handler om å danne og forbedre digitale produkter, systemer og tjenester med fokus på brukerbehov, bærekraft og samfunnsnytte. Faglig fokus på brukervennlighet, universell utforming, psykologi, kommunikasjon og tverrfaglig samarbeid."
+                  detail="Utdanningen handler om å skape og forbedre digitale produkter, systemer og tjenester med fokus på brukerbehov, bærekraft og samfunnsnytte. Faglig fokus på brukervennlighet, universell utforming, psykologi, kommunikasjon og tverrfaglig samarbeid."
                 />
                 <Entry
                   title="Fjellhaug Internasjonale Høgskole"
