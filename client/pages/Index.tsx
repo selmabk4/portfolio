@@ -56,15 +56,12 @@ export default function Index() {
         </h2>
 
         <article className="mt-10 grid border-b border-border sm:mt-14 sm:grid-cols-2">
-          <div className="order-1 flex min-h-[360px] flex-col justify-center px-0 py-2 sm:order-1 sm:min-h-0 sm:px-10 sm:py-12 lg:px-14">
+          <div className="order-1 flex min-h-[360px] flex-col items-stretch justify-start px-0 py-2 sm:order-1 sm:min-h-0 sm:px-10 sm:py-12 lg:px-14">
             <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
               Fugleadvokatene
             </h3>
             <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
               Innholdsproduksjon
-            </p>
-            <p className="mt-7 max-w-[420px] font-serif text-2xl leading-[1.28] text-foreground sm:text-[30px]">
-              Visuell kommunikasjon for nødstilte byfugler
             </p>
             <p className="mt-6 max-w-[430px] text-base leading-[1.625] text-foreground">
               Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
