@@ -13,8 +13,8 @@ export default function Index() {
           id="blob-hero-sm"
           className="hero-bubble hero-bubble-small pointer-events-none absolute -bottom-10 -left-10 w-[100px] rounded-full opacity-35 sm:w-[120px] lg:-left-7 lg:bottom-10 lg:w-[140px]"
         />
-        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1024px] -translate-y-6 flex-col items-center justify-center px-6 py-16 sm:-translate-y-8 sm:px-8 sm:py-20 lg:py-24">
-          <div className="flex w-full flex-col items-center border border-border px-6 py-8 sm:px-12 sm:py-10">
+        <div className="relative z-10 mx-auto flex min-h-[calc(100svh-4rem)] max-w-[1024px] -translate-y-2 flex-col items-center justify-center px-4 py-10 sm:min-h-[calc(100vh-5rem)] sm:-translate-y-8 sm:px-8 sm:py-20 lg:py-24">
+          <div className="flex w-full flex-col items-center border border-border px-4 py-6 sm:px-12 sm:py-10">
             <h1 className="text-center font-serif text-[40px] font-light leading-[1] tracking-[-0.02em] text-foreground sm:text-6xl lg:text-[84.675px] lg:leading-[84.675px] lg:tracking-[-1.694px]">
               Selma Bjørtomt Keser
             </h1>
@@ -56,7 +56,7 @@ export default function Index() {
         </h2>
 
         <article className="mt-10 grid border-b border-border sm:mt-14 sm:grid-cols-2">
-          <div className="order-1 flex min-h-[360px] flex-col items-stretch justify-start px-0 py-2 sm:order-1 sm:min-h-0 sm:px-10 sm:py-12 lg:px-14">
+          <div className="order-1 flex min-h-0 flex-col items-stretch justify-start px-4 py-8 sm:order-1 sm:min-h-0 sm:px-10 sm:py-12 lg:px-14">
             <h3 className="font-serif text-2xl font-medium leading-[1.25] text-foreground sm:text-[30px]">
               Fugleadvokatene
             </h3>
@@ -70,11 +70,11 @@ export default function Index() {
             </p>
           </div>
 
-          <figure className="order-2 aspect-[4/3] overflow-hidden bg-background sm:order-2 sm:aspect-auto sm:min-h-[360px]">
+          <figure className="order-2 overflow-hidden bg-background sm:order-2 sm:aspect-auto sm:min-h-[360px]">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F01f53c0f80d840f38fa23cd685dff678?format=webp&width=800&height=1200"
               alt="innhold til sosiale medier for Fugleadvokatene"
-              className="h-full w-full object-cover"
+              className="h-auto w-full object-contain sm:h-full sm:object-cover"
             />
           </figure>
         </article>

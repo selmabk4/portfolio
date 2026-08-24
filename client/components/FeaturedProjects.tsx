@@ -70,7 +70,7 @@ export default function FeaturedProjects() {
               className="grid grid-cols-1 border-b border-border sm:grid-cols-2"
             >
               <div
-                className={`order-2 flex flex-col justify-center gap-4 px-0 py-8 sm:px-10 sm:py-14 ${
+                className={`order-2 flex flex-col justify-center gap-4 px-4 py-8 sm:px-10 sm:py-14 ${
                   imageFirst ? "sm:order-2" : "sm:order-1"
                 }`}
               >
@@ -128,7 +128,7 @@ export default function FeaturedProjects() {
                 </Link>
               </div>
               <div
-                className={`order-1 min-h-[240px] overflow-hidden sm:min-h-[320px] ${
+                className={`order-1 min-h-[220px] overflow-hidden sm:min-h-[320px] ${
                   imageFirst ? "sm:order-1" : "sm:order-2"
                 }`}
               >
