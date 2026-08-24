@@ -63,7 +63,7 @@ export default function Index() {
             <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
               Innholdsproduksjon
             </p>
-            <p className="mt-7 max-w-[420px] font-serif text-2xl leading-[1.28] text-primary sm:text-[30px]">
+            <p className="mt-7 max-w-[420px] font-serif text-2xl leading-[1.28] text-foreground sm:text-[30px]">
               Visuell kommunikasjon for nødstilte byfugler
             </p>
             <p className="mt-6 max-w-[430px] text-base leading-[1.625] text-foreground">

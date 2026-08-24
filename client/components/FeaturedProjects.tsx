@@ -93,15 +93,15 @@ export default function FeaturedProjects() {
                 <p className="max-w-[452px] text-base leading-[1.625] text-foreground">
                   {index === 0 ? (
                     <>
-                      <span className="font-serif font-semibold italic text-primary">Redesign</span> av Emanuel Vigeland museets nettside, med vektleggelse av <span className="font-serif font-semibold italic text-primary">designsystem</span> og <span className="font-serif font-semibold italic text-primary">universell utforming</span>.
+                      <span className="font-serif font-semibold italic text-foreground">Redesign</span> av Emanuel Vigeland museets nettside, med vektleggelse av <span className="font-serif font-semibold italic text-foreground">designsystem</span> og <span className="font-serif font-semibold italic text-foreground">universell utforming</span>.
                     </>
                   ) : index === 1 ? (
                     <>
-                      <span className="font-serif font-semibold italic text-primary">Innsiktsarbeid</span> som førte til nye faktureringsforslag og <span className="font-serif font-semibold italic text-primary">redesign</span> av markedsføringssiden.
+                      <span className="font-serif font-semibold italic text-foreground">Innsiktsarbeid</span> som førte til nye faktureringsforslag og <span className="font-serif font-semibold italic text-foreground">redesign</span> av markedsføringssiden.
                     </>
                   ) : index === 2 ? (
                     <>
-                      Design av <span className="font-serif font-semibold italic text-primary">VR-simulering</span> for opplæring av helsepersonell ved sykehuset i Innlandet
+                      Design av <span className="font-serif font-semibold italic text-foreground">VR-simulering</span> for opplæring av helsepersonell ved sykehuset i Innlandet
                     </>
                   ) : (
                     project.description
