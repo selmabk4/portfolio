@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { label: "Portefølje", to: "/" },
   { label: "Om meg", to: "/om-meg" },
-  { label: "Kontakt", to: "/kontakt" },
+  { label: "Kontakt", to: "#kontakt" },
 ];
 
 export default function Layout({ children }: { children: ReactNode }) {
@@ -22,20 +22,29 @@ export default function Layout({ children }: { children: ReactNode }) {
           <ul className="flex items-center gap-4 sm:gap-8">
             {navItems.map((item) => (
               <li key={item.to}>
-                <NavLink
-                  to={item.to}
-                  end={item.to === "/"}
-                  className={({ isActive }) =>
-                    cn(
-                      "border-b pb-[1.5px] text-xs font-normal uppercase tracking-[1.2px] transition-colors",
-                      isActive
-                        ? "border-primary text-primary"
-                        : "border-transparent text-muted-foreground hover:text-primary",
-                    )
-                  }
-                >
-                  {item.label}
-                </NavLink>
+                {item.to === "#kontakt" ? (
+                  <a
+                    href="#kontakt"
+                    className="border-b border-transparent pb-[1.5px] text-xs font-normal uppercase tracking-[1.2px] text-muted-foreground transition-colors hover:text-primary"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <NavLink
+                    to={item.to}
+                    end={item.to === "/"}
+                    className={({ isActive }) =>
+                      cn(
+                        "border-b pb-[1.5px] text-xs font-normal uppercase tracking-[1.2px] transition-colors",
+                        isActive
+                          ? "border-primary text-primary"
+                          : "border-transparent text-muted-foreground hover:text-primary",
+                      )
+                    }
+                  >
+                    {item.label}
+                  </NavLink>
+                )}
               </li>
             ))}
           </ul>

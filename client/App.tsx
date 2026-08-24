@@ -7,7 +7,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "@/components/Layout";
 import Index from "./pages/Index";
-import Placeholder from "./pages/Placeholder";
 import EmanuelVigelandMuseum from "./pages/EmanuelVigelandMuseum";
 import PayoutPartner from "./pages/PayoutPartner";
 import SIMInnlandet from "./pages/SIMInnlandet";
@@ -39,7 +38,6 @@ export const App = () => (
               element={<TjonnasOgNorvald />}
             />
             <Route path="/om-meg" element={<OmMeg />} />
-            <Route path="/kontakt" element={<Placeholder title="Kontakt" />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -2,7 +2,7 @@ import { Mail } from "lucide-react";
 
 export default function ContactCta() {
   return (
-    <section className="bg-[#1a1610] text-white">
+    <section id="kontakt" className="bg-[#1a1610] text-white">
       <div className="mx-auto flex max-w-[896px] flex-col gap-8 px-6 py-20 sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:py-20">
         <h2 className="max-w-[390px] font-serif text-[34px] font-light leading-[1.25] sm:text-[38px]">
           Gjerne ta kontakt!
