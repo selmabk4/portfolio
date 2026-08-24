@@ -34,8 +34,11 @@ export default function EmanuelVigelandMuseum() {
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
           <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-            Hvordan moderniserer en nettside fra 2001 for et museum med 100+
-            konserter i året?
+            Gjennom emnet Designsystemer og universell utforming samarbeidet vi
+            med Emanuel Vigeland Museum som oppdragsgiver. Dette var et
+            tverrfaglig prosjekt der jeg fikk samarbeide med studenter fra
+            grafisk design. Oppgaven gikk ut på å modernisere den utdaterte
+            nettsiden og å lage et designsystem.
           </p>
 
           <dl className="mt-12 grid gap-x-6 gap-y-10 text-sm sm:grid-cols-2 lg:grid-cols-4">
