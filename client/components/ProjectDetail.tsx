@@ -1,3 +1,4 @@
+import ContactCta from "@/components/ContactCta";
 import { Link } from "react-router-dom";
 
 export interface ProjectDetailData {
@@ -121,6 +122,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
           </Link>
         </div>
       </div>
+      <ContactCta />
     </article>
   );
 }

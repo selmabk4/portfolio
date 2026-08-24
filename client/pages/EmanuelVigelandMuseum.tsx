@@ -1,3 +1,4 @@
+import ContactCta from "@/components/ContactCta";
 import { Link } from "react-router-dom";
 
 export default function EmanuelVigelandMuseum() {
@@ -118,6 +119,7 @@ export default function EmanuelVigelandMuseum() {
           </Link>
         </div>
       </div>
+      <ContactCta />
     </article>
   );
 }

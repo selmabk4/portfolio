@@ -1,4 +1,5 @@
 import GradientBlob from "@/components/GradientBlob";
+import ContactCta from "@/components/ContactCta";
 import FeaturedProjects from "@/components/FeaturedProjects";
 
 export default function Index() {
@@ -79,6 +80,8 @@ export default function Index() {
           </figure>
         </article>
       </section>
+
+      <ContactCta />
     </div>
   );
 }
