@@ -38,7 +38,7 @@ export default function EmanuelVigelandMuseum() {
             med Emanuel Vigeland Museum som oppdragsgiver. Dette var et
             tverrfaglig prosjekt der jeg fikk samarbeide med studenter fra
             grafisk design. Oppgaven gikk ut på å modernisere den utdaterte
-            nettsiden og å lage et designsystem.
+            nettsiden og lage et designsystem.
           </p>
 
           <dl className="mt-12 grid gap-x-6 gap-y-10 text-sm sm:grid-cols-2 lg:grid-cols-4">
