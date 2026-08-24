@@ -56,9 +56,6 @@ export default function FeaturedProjects() {
         <h2 className="font-serif text-2xl font-normal leading-[1.2] text-foreground sm:text-[30px]">
           Utvalgte prosjekter
         </h2>
-        <span className="hidden text-xs uppercase tracking-[1.2px] text-[#b0a898] sm:inline">
-          2024 — 2026
-        </span>
       </div>
 
       <div className="mt-12 sm:mt-16">
