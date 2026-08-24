@@ -37,7 +37,7 @@ const projects: Project[] = [
   },
   {
     title: "Tjønnås & Norvald",
-    category: "Webdesign / Booking 2025",
+    category: "Informasjonsarkitektur 2025",
     description:
       "Nettsider for desktop og mobil, med både booking og bestillingssystem basert på kundebehov.",
     image:
@@ -102,6 +102,10 @@ export default function FeaturedProjects() {
                   ) : index === 2 ? (
                     <>
                       Design av <span className="font-serif font-semibold italic text-primary">VR-simulering</span> for opplæring av helsepersonell ved sykehuset i Innlandet
+                    </>
+                  ) : index === 3 ? (
+                    <>
+                      Redesign og ny <span className="font-serif font-semibold italic text-primary">informasjonsarkitektur</span> med bestillingssystem basert på <span className="font-serif font-semibold italic text-primary">kundebehov</span>.
                     </>
                   ) : (
                     project.description
