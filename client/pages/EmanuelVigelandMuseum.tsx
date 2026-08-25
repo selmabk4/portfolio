@@ -118,6 +118,26 @@ export default function EmanuelVigelandMuseum() {
           </div>
         </section>
 
+        <section className="border-b border-border py-16 sm:py-24">
+          <div className="grid gap-6 sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] sm:gap-16">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary">
+              <span className="h-px w-6 bg-primary" aria-hidden="true" />
+              Designprosess
+            </p>
+            <div className="max-w-[620px] space-y-5 font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
+              <p>
+                Med innsikten som utgangspunkt prioriterte vi innhold og
+                funksjoner gjennom en MoSCoW-analyse.
+              </p>
+              <p>
+                Jeg utviklet en mobil prototype og en interaktiv
+                betalingsløsning, og brukte designsystemet til å skape en
+                tydelig og mer tilgjengelig nettside.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <div className="pt-10">
           <Link
             to="/#prosjekter"
