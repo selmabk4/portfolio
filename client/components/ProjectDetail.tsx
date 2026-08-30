@@ -36,6 +36,7 @@ export interface ProjectDetailData {
   hideIterations?: boolean;
   marketingImage?: string;
   marketingImageAlt?: string;
+  payoutPartnerContent?: boolean;
 }
 
 const personaImages = [
@@ -575,6 +576,50 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               />
             </figure>
           </section>
+        ) : null}
+
+        {project.payoutPartnerContent ? (
+          <>
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Spørreundersøkelser
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                Spørreundersøkelsene ga et bredere bilde av hvordan frilansere opplever fakturering, og hvilke deler av prosessen som skaper mest usikkerhet.
+              </p>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Intervjuer
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                Gjennom intervjuer med brukere undersøkte vi hvordan de jobber med fakturaer i praksis, hvilke forventninger de har til verktøyet, og hvor de trenger mer støtte.
+              </p>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Interessante funn
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                Funnene viste at brukerne ønsker bedre oversikt, tydeligere forklaringer og mer kontroll over hva som skjer før en faktura sendes. Dette ga retning for videre arbeid med transparente og forståelige KI-løsninger.
+              </p>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Konseptforslag
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                På bakgrunn av innsikten utviklet vi forslag til hvordan PayoutPartner kunne gjøre faktureringen enklere, samtidig som brukerne beholder innsyn og kontroll gjennom hele prosessen.
+              </p>
+            </section>
+          </>
         ) : null}
 
         <div className="pt-10">

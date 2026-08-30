@@ -17,6 +17,7 @@ const project: ProjectDetailData = {
   introHeading: "Praksisplass 2026",
   hideIdeation: true,
   hideIterations: true,
+  payoutPartnerContent: true,
   marketingImage:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F7a44ff8f4df74fb28fdae96a17af8c78?format=webp&width=1600&height=2400",
   marketingImageAlt: "PayoutPartner-grensesnitt vist på laptop, mobil og nettbrett",
