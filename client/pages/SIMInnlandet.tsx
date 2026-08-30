@@ -3,7 +3,7 @@ import ProjectDetail, { type ProjectDetailData } from "@/components/ProjectDetai
 const project: ProjectDetailData = {
   title: "SIMInnlandet",
   summary: "Design av VR-simulering for opplæring av helsepersonell ved sykehuset i Innlandet.",
-  challenge: "Hvordan kan en VR-simulering gjøre det tryggere og mer engasjerende å øve på situasjoner fra helsetjenesten?",
+  challenge: "Gjennom emnet Design av interaktive miljøer jobbet vi med SIMInnlandet fra Sykehuset i Innlandet. Oppgaven gikk ut på å skape et intuitivt læringsmiljø for helsepersonell.",
   prototype: true,
   simInnlandetContent: true,
   role: "Innsiktsarbeid og idéutvikling",
