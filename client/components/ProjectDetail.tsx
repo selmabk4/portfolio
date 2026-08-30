@@ -279,7 +279,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </figure>
               <figure className="col-span-full overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F77440316bc664975af4bcd7cc9e887ce?format=webp&width=800&height=1200"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F77440316bc664975af4bcd7cc9e887ce?format=webp&width=1600&height=2400"
                   alt="Sitemap for Tjønnås og Norvald"
                   loading="lazy"
                   className="h-auto w-full object-contain"
