@@ -15,6 +15,8 @@ const project: ProjectDetailData = {
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fdce94a2e998d41109ccddc40b423ee8d?format=webp&width=800&height=1200",
   secondaryToolIconAlt: "Claude",
   introHeading: "Praksisplass 2026",
+  hideIdeation: true,
+  hideIterations: true,
   background: "PayoutPartner hadde behov for å forstå brukernes utfordringer bedre og gjøre verdien av tjenesten enklere å kommunisere.",
   research: "Innsiktsarbeid ga retning for nye faktureringsforslag og redesign av markedsføringssiden.",
 };
