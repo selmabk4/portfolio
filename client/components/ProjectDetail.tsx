@@ -252,7 +252,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               kunne imøtekomme behovene deres. Vi benyttet metoden crazy 8s for å oppnå
               flest mulig forslag på kort tid.
             </p>
-            <div className="mt-10 space-y-8">
+            <div className="mt-10 grid gap-4 sm:grid-cols-3">
               <figure className="overflow-hidden border border-border bg-white">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F24c0cc29e31149d5b55c1b9493db65f2?format=webp&width=800&height=1200"
