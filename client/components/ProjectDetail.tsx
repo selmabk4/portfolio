@@ -588,6 +588,36 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
                 Spørreundersøkelsene ga et bredere bilde av hvordan frilansere opplever fakturering, og hvilke deler av prosessen som skaper mest usikkerhet.
               </p>
+              <div className="mt-10 grid gap-4 sm:grid-cols-2">
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-5xl font-medium leading-none text-foreground sm:text-6xl">8</p>
+                  <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Spørreundersøkelser</p>
+                  <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                    Vi laget åtte undersøkelser for å utforske ulike sider av brukerreisen.
+                  </p>
+                </article>
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-4xl font-medium leading-none text-foreground sm:text-5xl">Norsk + engelsk</p>
+                  <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Språk</p>
+                  <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                    Undersøkelsene ble laget på både norsk og engelsk for å nå flere brukere.
+                  </p>
+                </article>
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-5xl font-medium leading-none text-foreground sm:text-6xl">78</p>
+                  <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Totalt antall svar</p>
+                  <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                    Til sammen resulterte undersøkelsene i 78 svar.
+                  </p>
+                </article>
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-4xl font-medium leading-none text-foreground sm:text-5xl">Bredt spekter</p>
+                  <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Respondenter</p>
+                  <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                    Svarene kom fra respondenter med ulik bakgrunn, erfaring og behov.
+                  </p>
+                </article>
+              </div>
             </section>
 
             <section className="border-b border-border py-16 sm:py-24">
