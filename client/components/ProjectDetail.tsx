@@ -125,14 +125,22 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
         </section>
 
         {project.projectImage ? (
-          <figure className="overflow-hidden border border-border bg-white">
-            <img
-              src={project.projectImage}
-              alt={project.projectImageAlt ?? "Prosjektbilde for Tjønnås og Norvald"}
-              loading="lazy"
-              className="h-auto w-full origin-center scale-125 object-contain"
-            />
-          </figure>
+          <>
+            <div className="pt-16 sm:pt-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Løsning
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+            </div>
+            <figure className="mt-10 overflow-hidden border border-border bg-white">
+              <img
+                src={project.projectImage}
+                alt={project.projectImageAlt ?? "Prosjektbilde for Tjønnås og Norvald"}
+                loading="lazy"
+                className="h-auto w-full origin-center scale-125 object-contain"
+              />
+            </figure>
+          </>
         ) : null}
 
         {project.insights ? (
