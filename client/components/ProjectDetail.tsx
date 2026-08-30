@@ -106,8 +106,8 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 </div>
                 <p className="font-serif text-6xl leading-none text-foreground">20</p>
                 <p className="mt-4 text-sm leading-6 text-muted-foreground">
-                  intervjuer med kunder og ansatte hos Tjønnås og Norvald (1 eget
-                  intervju + 19 fra klassen)
+                  Intervjuer med kunder og ansatte hos Tjønnås og Norvald (1 eget
+                  intervju + 19 fra klassen).
                 </p>
               </article>
 
@@ -119,7 +119,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <GitBranch aria-hidden="true" className="h-5 w-5" />
                 </div>
                 <p className="text-sm leading-6 text-muted-foreground">
-                  Analyse og strukturering av funn ved hjelp av affinity map og personas
+                  Analyse og strukturering av funn ved hjelp av Affinity Map og personas.
                 </p>
               </article>
 
@@ -131,10 +131,10 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <ListChecks aria-hidden="true" className="h-5 w-5" />
                 </div>
                 <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-muted-foreground">
-                  <li>Manglende informasjon</li>
-                  <li>Vanskeligheter med bestilling og booking</li>
-                  <li>Lav produktsynlighet</li>
-                  <li>Interne kommunikasjonsutfordringer</li>
+                  <li>Manglende informasjon.</li>
+                  <li>Vanskeligheter med bestilling og booking.</li>
+                  <li>Lav produktsynlighet.</li>
+                  <li>Interne kommunikasjonsutfordringer.</li>
                 </ul>
               </article>
             </div>
