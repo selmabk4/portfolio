@@ -95,9 +95,38 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               Innsiktsarbeid
             </p>
             <div className="mb-10 h-1 w-12 bg-primary" />
-            <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-              {project.insights}
-            </p>
+            <dl className="max-w-[680px] space-y-7 text-sm leading-7 text-muted-foreground sm:text-base">
+              <div>
+                <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-foreground">
+                  Datagrunnlag
+                </dt>
+                <dd>
+                  20 intervjuer med kunder og ansatte hos Tjønnås og Norvald (1
+                  eget intervju + 19 fra klassen).
+                </dd>
+              </div>
+              <div>
+                <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-foreground">
+                  Metode
+                </dt>
+                <dd>
+                  Analyse og strukturering av funn ved hjelp av affinity map.
+                </dd>
+              </div>
+              <div>
+                <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-foreground">
+                  Funn
+                </dt>
+                <dd>
+                  <ul className="list-disc space-y-1 pl-5">
+                    <li>Manglende informasjon</li>
+                    <li>Vanskeligheter med bestilling og booking</li>
+                    <li>Lav produktsynlighet</li>
+                    <li>Interne kommunikasjonsutfordringer</li>
+                  </ul>
+                </dd>
+              </div>
+            </dl>
           </section>
         ) : null}
 
