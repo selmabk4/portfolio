@@ -2,7 +2,7 @@ import ProjectDetail, { type ProjectDetailData } from "@/components/ProjectDetai
 
 const project: ProjectDetailData = {
   title: "Tjønnås & Norvald",
-  summary: "Nettsider for desktop og mobil, med booking og bestillingssystem basert på kundebehov.",
+  summary: "Nettsider for desktop og mobil, med både booking og bestillingssystem basert på kundebehov.",
   challenge: "Hvordan kan en restaurantnettside gjøre det enkelt å utforske stedet, bestille og planlegge et besøk?",
   role: "UX- og webdesign",
   focus: "Booking og bestillingssystem",
