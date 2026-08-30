@@ -289,6 +289,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
           </div>
         </section>
 
+        <section className="border-b border-border py-16 sm:py-24">
+          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+            Egne iterasjoner
+          </p>
+          <div className="h-1 w-12 bg-primary" />
+        </section>
+
         <div className="pt-10">
           <Link
             to="/#prosjekter"
