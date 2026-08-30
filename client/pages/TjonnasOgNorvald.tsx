@@ -26,6 +26,9 @@ const project: ProjectDetailData = {
   iterationsImage:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F1988f3e9d7394e538415e13f48711223?format=webp&width=1600&height=2400",
   iterationsImageAlt: "Før- og etterbilder av nettsiden",
+  iterationsSecondaryImage:
+    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5f55ce17f491486ca06e27e4953a7f18?format=webp&width=1600&height=2400",
+  iterationsSecondaryImageAlt: "Flere før- og etterbilder av nettsiden",
 };
 
 export default function TjonnasOgNorvald() {

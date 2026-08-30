@@ -24,6 +24,8 @@ export interface ProjectDetailData {
   insightsSummary?: string;
   iterationsImage?: string;
   iterationsImageAlt?: string;
+  iterationsSecondaryImage?: string;
+  iterationsSecondaryImageAlt?: string;
   projectImage?: string;
   projectImageAlt?: string;
 }
@@ -317,6 +319,16 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <img
                 src={project.iterationsImage}
                 alt={project.iterationsImageAlt ?? "Før- og etterbilder av nettsiden"}
+                loading="lazy"
+                className="h-auto w-full object-contain"
+              />
+            </figure>
+          ) : null}
+          {project.iterationsSecondaryImage ? (
+            <figure className="mt-6 overflow-hidden border border-border bg-white">
+              <img
+                src={project.iterationsSecondaryImage}
+                alt={project.iterationsSecondaryImageAlt ?? "Flere før- og etterbilder av nettsiden"}
                 loading="lazy"
                 className="h-auto w-full object-contain"
               />
