@@ -13,6 +13,8 @@ const project: ProjectDetailData = {
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200",
   background: "Tjønnås & Norvald trengte en samlet digital løsning som presenterte stedet tydelig og gjorde booking og bestilling mer tilgjengelig.",
   research: "Kundebehov og innhold dannet grunnlaget for en løsning som fungerer på både desktop og mobil.",
+  insights:
+    "Vi gjennomførte grundig innsiktsarbeid basert på 20 intervjuer med både kunder og ansatte hos Tjønnås og Norvald. Gjennom analyse i et affinity map avdekket vi fire sentrale problemområder: manglende informasjon, vanskelig bestilling og booking, lav produktsynlighet og interne kommunikasjonsutfordringer.",
 };
 
 export default function TjonnasOgNorvald() {

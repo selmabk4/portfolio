@@ -16,6 +16,7 @@ export interface ProjectDetailData {
   introHeading?: string;
   background: string;
   research: string;
+  insights?: string;
 }
 
 export default function ProjectDetail({ project }: { project: ProjectDetailData }) {
@@ -87,6 +88,18 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             </div>
           </dl>
         </section>
+
+        {project.insights ? (
+          <section className="border-b border-border py-16 sm:py-24">
+            <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+              Innsiktsarbeid
+            </p>
+            <div className="mb-10 h-1 w-12 bg-primary" />
+            <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+              {project.insights}
+            </p>
+          </section>
+        ) : null}
 
         <div className="pt-10">
           <Link
