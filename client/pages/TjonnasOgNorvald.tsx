@@ -5,7 +5,7 @@ const project: ProjectDetailData = {
   summary: "Redesign og ny informasjonsarkitektur med bestillingssystem basert på kundebehov.",
   challenge:
     "Gjennom emnet Informasjonsarkitektur jobbet vi med Tjønnås delikatesser som oppdragsgiver. Dette var et tverrfaglig prosjekt der jeg samarbeidet med studenter fra både webutvikling og grafisk design. Oppgaven gikk ut på å forbedre informasjonsflyten på nettsiden med utgangspunkt i kundebehov",
-  role: "UX- og webdesign",
+  role: "UX-design og sitemap",
   focus: "Informasjonsarkitektur",
   timeframe: "10 uker",
   tools: "Figma",
