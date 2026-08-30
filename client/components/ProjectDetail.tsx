@@ -662,11 +662,11 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
 
             <section className="border-b border-border py-16 sm:py-24">
               <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
-                Konseptforslag
+                Oppsummering
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                På bakgrunn av innsikten utviklet jeg forslag til hvordan PayoutPartner kunne gjøre faktureringen enklere, samtidig som brukerne beholder innsyn og kontroll gjennom hele prosessen.
+                Praksisperioden viste hvor viktig det er å la brukernes behov styre retningen i et prosjekt. Innsikten førte til at jeg gikk bort fra full automatisering og heller fokuserte på en tilgjengelig, transparent og valgfri KI-assistent som gir brukerne bedre forståelse og kontroll.
               </p>
             </section>
           </>
