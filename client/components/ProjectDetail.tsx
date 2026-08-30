@@ -182,7 +182,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 Innsiktsarbeid
               </p>
               <div className="h-1 w-12 bg-primary" />
-              <figure className="mt-10 overflow-hidden border border-border bg-white">
+              <figure className="mx-auto mt-10 w-full max-w-[360px] overflow-hidden border border-border bg-white">
                 <img
                   src="https://selmab.com/images/xrekorn.png"
                   alt="Maskoten til løsningen: XR-ekorn"
