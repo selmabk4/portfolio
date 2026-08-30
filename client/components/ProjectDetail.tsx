@@ -1,4 +1,5 @@
 import ContactCta from "@/components/ContactCta";
+import { GitBranch, ListChecks, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export interface ProjectDetailData {
@@ -95,38 +96,48 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               Innsiktsarbeid
             </p>
             <div className="mb-10 h-1 w-12 bg-primary" />
-            <dl className="max-w-[680px] space-y-7 text-sm leading-7 text-muted-foreground sm:text-base">
-              <div>
-                <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-foreground">
-                  Datagrunnlag
-                </dt>
-                <dd>
-                  20 intervjuer med kunder og ansatte hos Tjønnås og Norvald (1
-                  eget intervju + 19 fra klassen).
-                </dd>
-              </div>
-              <div>
-                <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-foreground">
-                  Metode
-                </dt>
-                <dd>
-                  Analyse og strukturering av funn ved hjelp av affinity map.
-                </dd>
-              </div>
-              <div>
-                <dt className="mb-1 text-xs uppercase tracking-[1.2px] text-foreground">
-                  Funn
-                </dt>
-                <dd>
-                  <ul className="list-disc space-y-1 pl-5">
-                    <li>Manglende informasjon</li>
-                    <li>Vanskeligheter med bestilling og booking</li>
-                    <li>Lav produktsynlighet</li>
-                    <li>Interne kommunikasjonsutfordringer</li>
-                  </ul>
-                </dd>
-              </div>
-            </dl>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <article className="border border-border p-6">
+                <div className="mb-8 flex items-center justify-between text-primary">
+                  <p className="text-xs uppercase tracking-[1.2px] text-foreground">
+                    Datagrunnlag
+                  </p>
+                  <Users aria-hidden="true" className="h-5 w-5" />
+                </div>
+                <p className="font-serif text-6xl leading-none text-foreground">20</p>
+                <p className="mt-4 text-sm leading-6 text-muted-foreground">
+                  intervjuer med kunder og ansatte hos Tjønnås og Norvald (1 eget
+                  intervju + 19 fra klassen)
+                </p>
+              </article>
+
+              <article className="border border-border p-6">
+                <div className="mb-8 flex items-center justify-between text-primary">
+                  <p className="text-xs uppercase tracking-[1.2px] text-foreground">
+                    Metode
+                  </p>
+                  <GitBranch aria-hidden="true" className="h-5 w-5" />
+                </div>
+                <p className="text-sm leading-6 text-muted-foreground">
+                  Analyse og strukturering av funn ved hjelp av affinity map
+                </p>
+              </article>
+
+              <article className="border border-border p-6">
+                <div className="mb-8 flex items-center justify-between text-primary">
+                  <p className="text-xs uppercase tracking-[1.2px] text-foreground">
+                    Funn
+                  </p>
+                  <ListChecks aria-hidden="true" className="h-5 w-5" />
+                </div>
+                <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-muted-foreground">
+                  <li>Manglende informasjon</li>
+                  <li>Vanskeligheter med bestilling og booking</li>
+                  <li>Lav produktsynlighet</li>
+                  <li>Interne kommunikasjonsutfordringer</li>
+                </ul>
+              </article>
+            </div>
           </section>
         ) : null}
 
