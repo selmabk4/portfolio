@@ -630,7 +630,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Funnene viste at brukerne ønsker bedre oversikt, tydeligere forklaringer og mer kontroll over hva som skjer før en faktura sendes. Dette ga retning for videre arbeid med transparente og forståelige KI-løsninger.
+                Målet med praksisperioden var egentlig å designe en hel automatisert KI-flow, men innsiktsfasen tilsa at dette var en dårlig ide.
               </p>
             </section>
 
