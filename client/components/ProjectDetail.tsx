@@ -17,6 +17,7 @@ export interface ProjectDetailData {
   secondaryToolIconAlt?: string;
   introHeading?: string;
   prototype?: boolean;
+  simInnlandetContent?: boolean;
   background: string;
   research: string;
   insights?: string;
@@ -152,6 +153,173 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               />
             </div>
           </section>
+        ) : null}
+
+        {project.simInnlandetContent ? (
+          <>
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Designprosess og metoder
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <a
+                href="https://selmab.com/images/xrprosess.png"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-10 block overflow-hidden border border-border bg-white"
+              >
+                <img
+                  src="https://selmab.com/images/xrprosess.png"
+                  alt="Oversikt over designprosessen for SIMInnlandet"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </a>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Innsiktsarbeid
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <figure className="mt-10 overflow-hidden border border-border bg-white">
+                <img
+                  src="https://selmab.com/images/xrekorn.png"
+                  alt="Maskoten til løsningen: XR-ekorn"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+                <figcaption className="border-t border-border bg-background px-6 py-4 text-sm text-muted-foreground sm:px-8">
+                  Løsningens maskot
+                </figcaption>
+              </figure>
+              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                Designprosessens innsiktsarbeid besto av utforskning av lignende løsninger og forskning på opplæring i XR-miljøer. I tillegg hadde vi en spørsmålsrunde med SIMInnlandet, hvor vi fikk teste den allerede eksisterende VR-løsningen.
+              </p>
+              <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
+                <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
+                <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
+                  VR-scenarioene trenger UX-design rundt seg, slik at helsepersonell kan fokusere på læringen. Løsningen må være veldig intuitiv, da tekniske problemer kan hindre læring.
+                </p>
+              </div>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Personas
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                I dette prosjektet hadde personas en viktig rolle i arbeidet ved å være en påminner om hvem vi designer for. Målgruppen for løsningen er helsepersonell i ulike aldre og med ulike spesialiseringer. Derfor måtte designforslaget og brukeropplevelsen være tilpasset et bredt spekter av individer med forskjellige teknologiske ferdigheter og erfaringer.
+              </p>
+              <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
+                <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
+                  XR-løsninger kan oppleves kompliserte og tekniske. God UX er nøkkelen til å gjøre XR til et brukervennlig læringsverktøy.
+                </p>
+              </div>
+              <div className="mt-10 grid gap-6 sm:grid-cols-2">
+                <figure className="overflow-hidden border border-border bg-white">
+                  <img
+                    src="https://selmab.com/images/xrpersona1.png"
+                    alt="Persona: Ellinor"
+                    loading="lazy"
+                    className="h-auto w-full object-contain"
+                  />
+                </figure>
+                <figure className="overflow-hidden border border-border bg-white">
+                  <img
+                    src="https://selmab.com/images/xrpersona2.png"
+                    alt="Persona: Leif"
+                    loading="lazy"
+                    className="h-auto w-full object-contain"
+                  />
+                </figure>
+              </div>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Sitemap
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <div className="mt-10 max-w-[680px] space-y-5 text-sm leading-7 text-muted-foreground sm:text-base">
+                <p>Her er et overblikk over strukturen i løsningen.</p>
+                <p>
+                  Det ble gjort mange justeringer og iterasjoner på sitemappet, og vi måtte gå tilbake flere ganger. Originalt hadde vi benyttet ordet «veiledning» i stedet for «introduksjon», men SIMInnlandet kommenterte at veiledning ofte brukes i en annen sammenheng hos deres ansatte. Dermed måtte vi blant annet justere terminologien i løsningen.
+                </p>
+              </div>
+              <div className="mt-10 grid gap-6 sm:grid-cols-2">
+                <figure className="overflow-hidden border border-border bg-white">
+                  <img
+                    src="https://selmab.com/images/utkast.png"
+                    alt="Utkast 1 av sitemap"
+                    loading="lazy"
+                    className="h-auto w-full object-contain"
+                  />
+                  <figcaption className="border-t border-border px-6 py-4 text-sm text-muted-foreground">Utkast 1</figcaption>
+                </figure>
+                <figure className="overflow-hidden border border-border bg-white">
+                  <img
+                    src="https://selmab.com/images/xrsitemap.png"
+                    alt="Endelig sitemap for SIMInnlandet"
+                    loading="lazy"
+                    className="h-auto w-full object-contain"
+                  />
+                  <figcaption className="border-t border-border px-6 py-4 text-sm text-muted-foreground">Endelig sitemap</figcaption>
+                </figure>
+              </div>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Refleksjon
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <div className="mt-10 max-w-[680px] space-y-5 text-sm leading-7 text-muted-foreground sm:text-base">
+                <p>
+                  Prosjektet med SIMInnlandet var veldig lærerikt, og ga oss muligheten til å bruke kreativitet og gamification-prinsipper til det fulle. Tilbakemeldingene vi fikk underveis førte til at løsningen ble mer engasjerende og brukervennlig. Det var også spennende å jobbe med UX i et XR-miljø, noe som utfordret ferdighetene våre i Figma.
+                </p>
+                <p>
+                  Selv om prosjektet resulterte i karakteren A, er det fortsatt rom for flere iterasjoner. Vi fokuserte mest på onboarding-delen av løsningen, noe som førte til at debrief-delen ikke fikk like mye oppmerksomhet. Debrief-delen av prototypen er derfor ikke like engasjerende. Det kunne også blitt eksperimentert mer med fargevalget i løsningen, ved å ikke bare ta utgangspunkt i SIMInnlandets eksisterende fargepalett.
+                </p>
+              </div>
+            </section>
+
+            <section className="border-b border-border py-16 sm:py-24">
+              <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+                Se prototype-løsningen
+              </p>
+              <div className="h-1 w-12 bg-primary" />
+              <p className="mt-10 text-sm leading-7 text-muted-foreground sm:text-base">
+                Link til prototypen i Figma: {" "}
+                <a
+                  href="https://www.figma.com/proto/1B5k7km5tDQS2yXKiLsBsO/SIMInnlandet?page-id=0%3A1&node-id=1-1204&p=f&viewport=417%2C378%2C0.02&t=eJw5DiNaEL4I5Oyb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A1250"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-primary underline underline-offset-4"
+                >
+                  Åpne Figma-prototypen
+                </a>
+              </p>
+              <figure className="mt-10 overflow-hidden border border-border bg-white">
+                <a
+                  href="https://www.figma.com/proto/1B5k7km5tDQS2yXKiLsBsO/SIMInnlandet?page-id=0%3A1&node-id=1-1204&p=f&viewport=417%2C378%2C0.02&t=eJw5DiNaEL4I5Oyb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A1250"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://selmab.com/images/xrl%C3%B8sning.png"
+                    alt="Skjermbilde av prototype-løsningen"
+                    loading="lazy"
+                    className="h-auto w-full object-contain"
+                  />
+                </a>
+                <figcaption className="border-t border-border px-6 py-4 text-sm text-muted-foreground sm:px-8">
+                  Bildet av løsningen
+                </figcaption>
+              </figure>
+            </section>
+          </>
         ) : null}
 
         {project.projectImage ? (
