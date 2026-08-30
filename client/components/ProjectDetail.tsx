@@ -26,24 +26,24 @@ export interface ProjectDetailData {
 
 const personaImages = [
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5ef593efd55949198465dce5e23eb94f?format=webp&width=800&height=1200",
-    alt: "Persona: ansatt",
-    label: "Ansatt",
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd5b3b6ce21ea44f2b1808b29c6904a96?format=webp&width=800&height=1200",
-    alt: "Persona: Norvald-kunde",
-    label: "Norvald-kunde",
-  },
-  {
     src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F743ba3e3b9c5449d9862fdef22fef2d3?format=webp&width=800&height=1200",
     alt: "Persona: studentkunde",
     label: "Studentkunde",
   },
   {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd5b3b6ce21ea44f2b1808b29c6904a96?format=webp&width=800&height=1200",
+    alt: "Persona: Norvald kunde",
+    label: "Norvald kunde",
+  },
+  {
     src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F877981ebf27b430089d874ff04ded6b6?format=webp&width=800&height=1200",
-    alt: "Persona: Tjønnås-kunde",
-    label: "Tjønnås-kunde",
+    alt: "Persona: Tjønnås kunde",
+    label: "Tjønnås kunde",
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5ef593efd55949198465dce5e23eb94f?format=webp&width=800&height=1200",
+    alt: "Persona: ansatt",
+    label: "Ansatt",
   },
 ];
 
@@ -195,7 +195,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   src={personaImages[personaIndex].src}
                   alt={personaImages[personaIndex].alt}
                   loading="lazy"
-                  className="mx-auto h-auto max-h-[620px] w-full object-contain"
+                  className="mx-auto h-auto max-h-[500px] w-full object-contain"
                 />
                 <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-background/90 px-4 py-3 backdrop-blur-sm sm:px-6">
                   <p className="text-sm text-foreground">
