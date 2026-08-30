@@ -132,7 +132,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Gjennom brukerintervjuene identifiserte vi en ubrukt markedsmulighet knyttet til bestilling av gavepakker. Tidligere fantes det ingen offisiell salgskanal for dette utover uformelle meldinger på Instagram, noe som ga svært lav produktsynlighet og gjorde tilbudet ukjent for de fleste kunder. Som svar på dette konseptualiserte og designet vi en prototype med en dedikert, visuell bestillingsflyt. Konseptet demonstrerer hvordan man kan løfte frem produktene, øke synligheten og fjerne friksjon i kjøpsprosessen, og viser potensialet for hvordan bedriften kan etablere en mer profesjonell og skalerbar salgskanal.
+                Gjennom brukerintervjuene identifiserte vi en ubrukt markedsmulighet knyttet til bestilling av gavepakker. Tidligere fantes det ingen offisiell salgskanal for dette utover uformelle meldinger på Instagram, noe som ga svært lav produktsynlighet og gjorde tilbudet ukjent for de fleste kunder. Som svar på dette konseptualiserte og designet vi en prototype med en dedikert, visuell bestillingsflyt. Konseptet øker synligheten og fjerne friksjon i kjøpsprosessen, og viser potensialet for hvordan bedriften kan skalere.
               </p>
             </div>
             <figure className="mt-10 overflow-hidden border border-border bg-white">
