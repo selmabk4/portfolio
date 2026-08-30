@@ -638,7 +638,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                     Mobilfokus fremfor app
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
-                    Brukerne foretrakk å bruke plattformen på mobil, men uttrykte en utbredt «app-tretthet» for tjenester de sjelden bruker. For å unngå friksjon prioriterte vi derfor å designe en responsiv webløsning («mobile-first») fremfor en egen applikasjon, i tillegg til å anbefale bruk av mobile-first fremover
+                    Brukerne foretrakk å bruke plattformen på mobil, men uttrykte en utbredt «app-tretthet» for tjenester de sjelden bruker. For å unngå friksjon prioriterte vi derfor å designe en responsiv webløsning fremfor en egen applikasjon, i tillegg til å anbefale bruk av mobile-first fremover
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
