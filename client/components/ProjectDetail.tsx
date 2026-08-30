@@ -643,10 +643,10 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
                   <p className="font-serif text-xl font-medium leading-tight break-normal text-foreground sm:text-2xl">
-                    Uklare gebyrer
+                    Tilgjengelighet og klarspråk
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
-                    Brukerne forstår ikke alltid avdragene og gebyrene på plattformen.
+                    Evaluering med skjermleseren VoiceOver og dybdeintervjuer avdekket barrierer knyttet til dårlig merkede knapper og tung bransjeterminologi. Dette førte til et forsterket fokus og anbefaling om WCAG-samsvar og implementering av klarspråk.
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
