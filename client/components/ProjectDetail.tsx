@@ -1,5 +1,6 @@
 import ContactCta from "@/components/ContactCta";
-import { GitBranch, ListChecks, Users } from "lucide-react";
+import { ChevronLeft, ChevronRight, GitBranch, ListChecks, Users } from "lucide-react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export interface ProjectDetailData {
@@ -23,7 +24,31 @@ export interface ProjectDetailData {
   insightsSummary?: string;
 }
 
+const personaImages = [
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5ef593efd55949198465dce5e23eb94f?format=webp&width=800&height=1200",
+    alt: "Persona: ansatt",
+    label: "Ansatt",
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd5b3b6ce21ea44f2b1808b29c6904a96?format=webp&width=800&height=1200",
+    alt: "Persona: Norvald-kunde",
+    label: "Norvald-kunde",
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F743ba3e3b9c5449d9862fdef22fef2d3?format=webp&width=800&height=1200",
+    alt: "Persona: studentkunde",
+    label: "Studentkunde",
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F877981ebf27b430089d874ff04ded6b6?format=webp&width=800&height=1200",
+    alt: "Persona: Tjønnås-kunde",
+    label: "Tjønnås-kunde",
+  },
+];
+
 export default function ProjectDetail({ project }: { project: ProjectDetailData }) {
+  const [personaIndex, setPersonaIndex] = useState(0);
   return (
     <article>
       <section className="border-b border-primary-foreground/20 bg-primary text-primary-foreground">
@@ -156,9 +181,56 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 ) : null}
               </figure>
             ) : null}
+            <div className="mt-10 border-t border-border pt-8">
+              <div className="mb-5 flex items-center justify-between gap-4">
+                <p className="text-xs uppercase tracking-[1.2px] text-muted-foreground">
+                  Personas
+                </p>
+                <p className="text-xs text-muted-foreground" aria-live="polite">
+                  {personaIndex + 1} / {personaImages.length}
+                </p>
+              </div>
+              <div className="relative overflow-hidden border border-border bg-white">
+                <img
+                  src={personaImages[personaIndex].src}
+                  alt={personaImages[personaIndex].alt}
+                  loading="lazy"
+                  className="mx-auto h-auto max-h-[620px] w-full object-contain"
+                />
+                <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-background/90 px-4 py-3 backdrop-blur-sm sm:px-6">
+                  <p className="text-sm text-foreground">
+                    {personaImages[personaIndex].label}
+                  </p>
+                  <div className="flex gap-2">
+                    <button
+                      type="button"
+                      aria-label="Forrige persona"
+                      onClick={() =>
+                        setPersonaIndex(
+                          (current) =>
+                            (current - 1 + personaImages.length) % personaImages.length,
+                        )
+                      }
+                      className="border border-border p-2 text-foreground transition-colors hover:border-primary hover:bg-primary hover:text-primary-foreground"
+                    >
+                      <ChevronLeft aria-hidden="true" className="h-4 w-4" />
+                    </button>
+                    <button
+                      type="button"
+                      aria-label="Neste persona"
+                      onClick={() =>
+                        setPersonaIndex((current) => (current + 1) % personaImages.length)
+                      }
+                      className="border border-border p-2 text-foreground transition-colors hover:border-primary hover:bg-primary hover:text-primary-foreground"
+                    >
+                      <ChevronRight aria-hidden="true" className="h-4 w-4" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         ) : null}
-
 
         <div className="pt-10">
           <Link
