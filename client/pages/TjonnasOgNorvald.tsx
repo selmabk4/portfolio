@@ -3,7 +3,8 @@ import ProjectDetail, { type ProjectDetailData } from "@/components/ProjectDetai
 const project: ProjectDetailData = {
   title: "Tjønnås & Norvald",
   summary: "Redesign og ny informasjonsarkitektur med bestillingssystem basert på kundebehov.",
-  challenge: "Hvordan kan en restaurantnettside gjøre det enkelt å utforske stedet, bestille og planlegge et besøk?",
+  challenge:
+    "Gjennom emnet Informasjonsarkitektur jobbet vi med Tjønnås delikatesser som oppdragsgiver. Dette var et tverrfaglig prosjekt der jeg samarbeidet med studenter fra både webutvikling og grafisk design. Oppgaven gikk ut på å forbedre informasjonsflyten på nettsiden med utgangspunkt i kundebehov",
   role: "UX- og webdesign",
   focus: "Informasjonsarkitektur",
   timeframe: "10 uker",
