@@ -18,6 +18,8 @@ export interface ProjectDetailData {
   background: string;
   research: string;
   insights?: string;
+  insightsImage?: string;
+  insightsImageAlt?: string;
 }
 
 export default function ProjectDetail({ project }: { project: ProjectDetailData }) {
@@ -138,6 +140,16 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 </ul>
               </article>
             </div>
+            {project.insightsImage ? (
+              <figure className="mt-8 overflow-hidden border border-border bg-white">
+                <img
+                  src={project.insightsImage}
+                  alt={project.insightsImageAlt ?? "Affinity map"}
+                  loading="lazy"
+                  className="h-auto max-h-[280px] w-full object-contain object-left sm:max-h-[360px]"
+                />
+              </figure>
+            ) : null}
           </section>
         ) : null}
 
