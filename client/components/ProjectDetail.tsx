@@ -24,6 +24,8 @@ export interface ProjectDetailData {
   insightsSummary?: string;
   iterationsImage?: string;
   iterationsImageAlt?: string;
+  projectImage?: string;
+  projectImageAlt?: string;
 }
 
 const personaImages = [
@@ -126,6 +128,16 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               Innsiktsarbeid
             </p>
             <div className="mb-10 h-1 w-12 bg-primary" />
+            {project.projectImage ? (
+              <figure className="mb-10 overflow-hidden border border-border bg-white">
+                <img
+                  src={project.projectImage}
+                  alt={project.projectImageAlt ?? "Prosjektbilde for Tjønnås og Norvald"}
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </figure>
+            ) : null}
             <div className="grid gap-4 sm:grid-cols-3">
               <article className="border border-border p-6">
                 <div className="mb-8 flex items-center justify-between text-primary">
