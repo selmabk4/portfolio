@@ -128,7 +128,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               src={project.projectImage}
               alt={project.projectImageAlt ?? "Prosjektbilde for Tjønnås og Norvald"}
               loading="lazy"
-              className="h-auto w-full object-contain"
+              className="h-auto w-full origin-center scale-125 object-contain"
             />
           </figure>
         ) : null}
