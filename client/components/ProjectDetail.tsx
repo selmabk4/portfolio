@@ -612,7 +612,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Jeg gjennomførte 11 intervjuer med brukere for å undersøke hvordan de jobber med fakturaer i praksis, hvilke forventninger de har til verktøyet, og hvor de trenger mer støtte.
+                Jeg planla og ledet 11 dybdeintervjuer kombinert med brukertesting. Innsikten ble fortløpende analysert i Affinity Maps. Intervjuene, inkludert testing med skjermleseren VoiceOver, avdekket stor skepsis til KI-automatisering. Dette ble et vendepunkt som endret prosjektets retning mot transparente og tilgjengelige KI-løsninger.
               </p>
             </section>
 
