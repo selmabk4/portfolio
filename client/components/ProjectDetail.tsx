@@ -593,7 +593,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <p className="font-serif text-5xl font-medium leading-none text-foreground sm:text-6xl">8</p>
                   <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Spørreundersøkelser</p>
                   <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                    Vi lagde åtte spørreundersøkelser for å utforske ulike type brukerreiser.
+                    Jeg lagde åtte spørreundersøkelser for å utforske ulike type brukerreiser.
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
@@ -632,7 +632,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                På bakgrunn av innsikten utviklet vi forslag til hvordan PayoutPartner kunne gjøre faktureringen enklere, samtidig som brukerne beholder innsyn og kontroll gjennom hele prosessen.
+                På bakgrunn av innsikten utviklet jeg forslag til hvordan PayoutPartner kunne gjøre faktureringen enklere, samtidig som brukerne beholder innsyn og kontroll gjennom hele prosessen.
               </p>
             </section>
           </>
