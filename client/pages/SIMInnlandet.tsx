@@ -13,6 +13,8 @@ const project: ProjectDetailData = {
   heroImage:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fbcd0aacb96b44b1b8ad0b493767643c7?format=webp&width=800&height=1200",
   heroImageAlt: "Maskot med VR-briller for SIMInnlandet-prosjektet",
+  hideIdeation: true,
+  hideIterations: true,
   background: "Sykehuset i Innlandet ønsket en mer praktisk og nærværende måte å trene helsepersonell på før de møter situasjoner i arbeidshverdagen.",
   research: "Arbeidet tok utgangspunkt i behovene til helsepersonell og hvordan en simulering kunne gjøre læringen tydelig, trygg og relevant.",
 };

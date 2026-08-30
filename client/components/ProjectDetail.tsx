@@ -30,6 +30,8 @@ export interface ProjectDetailData {
   projectImageAlt?: string;
   heroImage?: string;
   heroImageAlt?: string;
+  hideIdeation?: boolean;
+  hideIterations?: boolean;
 }
 
 const personaImages = [
@@ -277,9 +279,10 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
           </section>
         ) : null}
 
-        <section className="border-b border-border py-16 sm:py-24">
-          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
-            Ideutvikling
+        {!project.hideIdeation ? (
+          <section className="border-b border-border py-16 sm:py-24">
+            <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+              Ideutvikling
           </p>
           <div className="h-1 w-12 bg-primary" />
           <div className="mt-10 max-w-[680px]">
@@ -324,11 +327,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </figure>
             </div>
           </div>
-        </section>
+          </section>
+        ) : null}
 
-        <section className="border-b border-border py-16 sm:py-24">
-          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
-            Egne iterasjoner
+        {!project.hideIterations ? (
+          <section className="border-b border-border py-16 sm:py-24">
+            <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+              Egne iterasjoner
           </p>
           <div className="h-1 w-12 bg-primary" />
           <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
@@ -354,7 +359,8 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               />
             </figure>
           ) : null}
-        </section>
+          </section>
+        ) : null}
 
         <div className="pt-10">
           <Link
