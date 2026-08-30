@@ -69,7 +69,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             Tilbake til prosjekter
           </Link>
 
-          <div className="mt-auto max-w-[700px] pt-24">
+          <div className="mt-auto max-w-[700px] pb-24 pt-24 sm:pb-0">
             <h1 className="max-w-[760px] font-serif text-5xl font-medium leading-[1.02] tracking-[-0.03em] sm:text-7xl lg:text-[84px]">
               {project.title}
             </h1>
@@ -81,7 +81,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             <img
               src={project.heroImage}
               alt={project.heroImageAlt ?? "Illustrasjon for prosjektet"}
-              className="mt-8 h-40 w-40 self-end object-contain sm:absolute sm:bottom-8 sm:right-8 sm:mt-0 sm:h-64 sm:w-64"
+              className="absolute bottom-8 right-6 h-32 w-32 object-contain sm:right-8 sm:h-64 sm:w-64"
             />
           ) : null}
         </div>
