@@ -63,7 +63,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
         <div className="relative mx-auto flex min-h-[440px] max-w-[1152px] flex-col px-6 pb-12 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
           <Link
             to="/#prosjekter"
-            className="inline-flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+            className="inline-flex items-center gap-3 pr-24 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground sm:pr-0"
           >
             <span aria-hidden="true">←</span>
             Tilbake til prosjekter
@@ -81,7 +81,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             <img
               src={project.heroImage}
               alt={project.heroImageAlt ?? "Illustrasjon for prosjektet"}
-              className="absolute bottom-8 right-6 h-32 w-32 object-contain sm:right-8 sm:h-64 sm:w-64"
+              className="absolute right-4 top-6 h-20 w-20 object-contain sm:bottom-8 sm:right-8 sm:top-auto sm:h-64 sm:w-64"
             />
           ) : null}
         </div>
