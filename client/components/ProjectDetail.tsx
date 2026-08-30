@@ -131,10 +131,10 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <ListChecks aria-hidden="true" className="h-5 w-5" />
                 </div>
                 <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-muted-foreground">
-                  <li>Manglende informasjon.</li>
-                  <li>Vanskeligheter med bestilling og booking.</li>
-                  <li>Lav produktsynlighet.</li>
-                  <li>Interne kommunikasjonsutfordringer.</li>
+                  <li>Mangelfull informasjon</li>
+                  <li>Vanskelig bestilling/booking</li>
+                  <li>Lav synlighet</li>
+                  <li>Intern kommunikasjonsutfordring</li>
                 </ul>
               </article>
             </div>
