@@ -182,27 +182,31 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 Innsiktsarbeid
               </p>
               <div className="h-1 w-12 bg-primary" />
-              <figure className="mx-auto mt-8 w-full max-w-[340px] overflow-hidden border border-border bg-white shadow-sm sm:mt-10">
-                <div className="aspect-square bg-[#f0eef8]">
-                  <img
-                    src="https://selmab.com/images/xrekorn.png"
-                    alt="Maskoten til løsningen: XR-ekorn"
-                    loading="lazy"
-                    className="h-full w-full object-contain"
-                  />
+              <div className="mt-8 grid items-start gap-10 sm:mt-10 sm:grid-cols-[minmax(0,340px)_minmax(0,1fr)] sm:gap-12">
+                <figure className="w-full overflow-hidden border border-border bg-white shadow-sm">
+                  <div className="aspect-square bg-[#f0eef8]">
+                    <img
+                      src="https://selmab.com/images/xrekorn.png"
+                      alt="Maskoten til løsningen: XR-ekorn"
+                      loading="lazy"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                  <figcaption className="border-t border-border bg-background px-6 py-4 text-sm text-muted-foreground sm:px-8">
+                    Løsningens maskot
+                  </figcaption>
+                </figure>
+                <div>
+                  <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+                    Designprosessens innsiktsarbeid besto av utforskning av lignende løsninger og forskning på opplæring i XR-miljøer. I tillegg hadde vi en spørsmålsrunde med SIMInnlandet, hvor vi fikk teste den allerede eksisterende VR-løsningen.
+                  </p>
+                  <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
+                    <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
+                    <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
+                      VR-scenarioene trenger UX-design rundt seg, slik at helsepersonell kan fokusere på læringen. Løsningen må være veldig intuitiv, da tekniske problemer kan hindre læring.
+                    </p>
+                  </div>
                 </div>
-                <figcaption className="border-t border-border bg-background px-6 py-4 text-sm text-muted-foreground sm:px-8">
-                  Løsningens maskot
-                </figcaption>
-              </figure>
-              <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Designprosessens innsiktsarbeid besto av utforskning av lignende løsninger og forskning på opplæring i XR-miljøer. I tillegg hadde vi en spørsmålsrunde med SIMInnlandet, hvor vi fikk teste den allerede eksisterende VR-løsningen.
-              </p>
-              <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
-                <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
-                <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
-                  VR-scenarioene trenger UX-design rundt seg, slik at helsepersonell kan fokusere på læringen. Løsningen må være veldig intuitiv, da tekniske problemer kan hindre læring.
-                </p>
               </div>
             </section>
 
