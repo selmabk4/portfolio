@@ -614,6 +614,14 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
                 Jeg planla og ledet 11 dybdeintervjuer kombinert med brukertesting. Innsikten ble fortløpende analysert i Affinity Maps. Intervjuene, inkludert testing med skjermleseren VoiceOver, avdekket stor skepsis til KI-automatisering. Dette ble et vendepunkt som endret prosjektets retning mot transparente og tilgjengelige KI-løsninger.
               </p>
+              <figure className="mt-10 overflow-hidden border border-border bg-white">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F9b1e882ab1a5422ebf338006e7468689?format=webp&width=800&height=1200"
+                  alt="Bilde fra intervjuer og brukertesting"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </figure>
             </section>
 
             <section className="border-b border-border py-16 sm:py-24">
