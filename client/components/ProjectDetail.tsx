@@ -651,10 +651,10 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
                   <p className="font-serif text-xl font-medium leading-tight break-normal text-foreground sm:text-2xl">
-                    Behov for forklaring
+                    Transparens rundt KI
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
-                    Brukerne stoler delvis blindt på tjenesten og ønsker derfor en AI som forklarer, ikke bare automatiserer.
+                    Målgruppen var skeptiske til full KI-automatisering og deling av data med tredjeparter. Innsikten endret prosjektets retning: Istedenfor automatisering konseptualiserte jeg en valgfri og transparent KI-assistent som ga brukerne full kontroll over prosessen.
                   </p>
                 </article>
               </div>
