@@ -34,6 +34,8 @@ export interface ProjectDetailData {
   heroImageAlt?: string;
   hideIdeation?: boolean;
   hideIterations?: boolean;
+  marketingImage?: string;
+  marketingImageAlt?: string;
 }
 
 const personaImages = [
@@ -555,6 +557,23 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               />
             </figure>
           ) : null}
+          </section>
+        ) : null}
+
+        {project.marketingImage ? (
+          <section className="border-b border-border py-16 sm:py-24">
+            <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+              Ny markedsføringsside
+            </p>
+            <div className="h-1 w-12 bg-primary" />
+            <figure className="mt-10 overflow-hidden border border-border bg-white">
+              <img
+                src={project.marketingImage}
+                alt={project.marketingImageAlt ?? "Ny markedsføringsside for PayoutPartner"}
+                loading="lazy"
+                className="h-auto w-full object-contain"
+              />
+            </figure>
           </section>
         ) : null}
 
