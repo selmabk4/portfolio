@@ -586,7 +586,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Spørreundersøkelsene ga et bredere bilde av hvordan frilansere opplever fakturering, og hvilke deler av prosessen som skaper mest usikkerhet.
+                Spørreundersøkelsene ga et bredere bilde av hvordan kundene opplever PayoutPartner plattformen i dag. Dette la også grunnlaget for hva jeg kunne spørre om i brukerintervjuene.
               </p>
               <div className="mt-10 grid gap-4 sm:grid-cols-2">
                 <article className="border border-border bg-background p-6 sm:p-8">
