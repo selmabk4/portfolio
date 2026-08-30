@@ -6,7 +6,7 @@ const project: ProjectDetailData = {
   challenge: "Hvordan kan en VR-simulering gjøre det tryggere og mer engasjerende å øve på situasjoner fra helsetjenesten?",
   role: "UX- og XR-design",
   focus: "Opplæring gjennom VR-simulering",
-  timeframe: "2025",
+  timeframe: "8 uker",
   tools: "Figma",
   toolIcon:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200",
