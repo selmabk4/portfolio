@@ -197,7 +197,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   loading="lazy"
                   className="mx-auto h-auto max-h-[500px] w-full object-contain"
                 />
-                <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-background/90 px-4 py-3 backdrop-blur-sm sm:px-6">
+                <div className="flex items-center justify-between border-t border-border bg-background px-4 py-3 sm:px-6">
                   <p className="text-sm text-foreground">
                     {personaImages[personaIndex].label}
                   </p>
