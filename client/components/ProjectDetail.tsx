@@ -635,10 +635,10 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <div className="mt-10 grid gap-4 sm:grid-cols-3">
                 <article className="border border-border bg-background p-6 sm:p-8">
                   <p className="font-serif text-xl font-medium leading-tight break-normal text-foreground sm:text-2xl">
-                    AI-chat fremfor full automatisering
+                    Mobilfokus fremfor app
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
-                    De fleste foretrekker en AI-chat som forklarer og hjelper, fremfor en løsning som automatiserer hele prosessen.
+                    Brukerne foretrakk å bruke plattformen på mobil, men uttrykte en utbredt «app-tretthet» for tjenester de sjelden bruker. For å unngå friksjon prioriterte vi derfor å designe en responsiv webløsning («mobile-first») fremfor en egen applikasjon, i tillegg til å anbefale bruk av mobile-first fremover
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
