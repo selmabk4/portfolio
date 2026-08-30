@@ -216,7 +216,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                I dette prosjektet hadde personas en viktig rolle i arbeidet ved å være en påminner om hvem vi designer for. Målgruppen for løsningen er helsepersonell i ulike aldre og med ulike spesialiseringer. Derfor måtte designforslaget og brukeropplevelsen være tilpasset et bredt spekter av individer med forskjellige teknologiske ferdigheter og erfaringer.
+                Personas var et sentralt verktøy for å sikre et konstant brukerfokus gjennom prosjektet. Da målgruppen bestod av helsepersonell på tvers av ulike aldre, fagfelt og teknisk kompetanse, var det avgjørende å designe en inkluderende og intuitiv brukeropplevelse som fungerer like godt uavhengig av brukerens digitale erfaring.
               </p>
               <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
                 <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
