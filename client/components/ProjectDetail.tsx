@@ -121,7 +121,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
         {project.insights ? (
           <section className="border-b border-border py-16 sm:py-24">
             <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
-              Innsiktsarbeid
+              Ideutvikling
             </p>
             <div className="mb-10 h-1 w-12 bg-primary" />
             <div className="grid gap-4 sm:grid-cols-3">
