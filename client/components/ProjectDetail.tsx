@@ -296,6 +296,9 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             Egne iterasjoner
           </p>
           <div className="h-1 w-12 bg-primary" />
+          <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+            Etter prosjektslutt gjorde jeg egne iterasjoner for å styrke informasjonsarkitekturen og den visuelle lesbarheten.
+          </p>
           {project.iterationsImage ? (
             <figure className="mt-10 overflow-hidden border border-border bg-white">
               <img
