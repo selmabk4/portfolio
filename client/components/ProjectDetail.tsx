@@ -142,6 +142,14 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               Prototype
             </p>
             <div className="h-1 w-12 bg-primary" />
+            <div className="mx-auto mt-10 aspect-[9/16] w-full max-w-[390px] overflow-hidden border border-border bg-white">
+              <iframe
+                src="https://www.figma.com/proto/1B5k7km5tDQS2yXKiLsBsO/SIMInnlandet?content-scaling=fixed&kind=proto&node-id=1-1088&page-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A1250"
+                title="SIMInnlandet prototype"
+                allowFullScreen
+                className="h-full w-full"
+              />
+            </div>
           </section>
         ) : null}
 
