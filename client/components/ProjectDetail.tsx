@@ -252,11 +252,6 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               kunne imøtekomme behovene deres. Vi benyttet metoden crazy 8s for å oppnå
               flest mulig forslag på kort tid.
             </p>
-            <ul className="mt-8 space-y-3 text-sm leading-7 text-muted-foreground sm:text-base">
-              <li>Skisser på ark</li>
-              <li>Diskusjoner</li>
-              <li>Crazy 8s</li>
-            </ul>
           </div>
         </section>
 
