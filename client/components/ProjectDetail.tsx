@@ -122,22 +122,23 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
           </dl>
         </section>
 
+        {project.projectImage ? (
+          <figure className="overflow-hidden border border-border bg-white">
+            <img
+              src={project.projectImage}
+              alt={project.projectImageAlt ?? "Prosjektbilde for Tjønnås og Norvald"}
+              loading="lazy"
+              className="h-auto w-full object-contain"
+            />
+          </figure>
+        ) : null}
+
         {project.insights ? (
           <section className="border-b border-border py-16 sm:py-24">
             <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
               Innsiktsarbeid
             </p>
             <div className="mb-10 h-1 w-12 bg-primary" />
-            {project.projectImage ? (
-              <figure className="mb-10 overflow-hidden border border-border bg-white">
-                <img
-                  src={project.projectImage}
-                  alt={project.projectImageAlt ?? "Prosjektbilde for Tjønnås og Norvald"}
-                  loading="lazy"
-                  className="h-auto w-full object-contain"
-                />
-              </figure>
-            ) : null}
             <div className="grid gap-4 sm:grid-cols-3">
               <article className="border border-border p-6">
                 <div className="mb-8 flex items-center justify-between text-primary">
