@@ -149,22 +149,16 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   loading="lazy"
                   className="h-auto max-h-[280px] w-full object-contain object-left sm:max-h-[360px]"
                 />
+                {project.insightsSummary ? (
+                  <figcaption className="border-t border-border bg-background px-6 py-5 text-sm leading-7 text-muted-foreground sm:px-8">
+                    {project.insightsSummary}
+                  </figcaption>
+                ) : null}
               </figure>
             ) : null}
           </section>
         ) : null}
 
-        {project.insightsSummary ? (
-          <section className="border-b border-border py-16 sm:py-24">
-            <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
-              Oppsummering
-            </p>
-            <div className="mb-10 h-1 w-12 bg-primary" />
-            <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-              {project.insightsSummary}
-            </p>
-          </section>
-        ) : null}
 
         <div className="pt-10">
           <Link
