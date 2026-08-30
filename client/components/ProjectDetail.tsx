@@ -252,6 +252,32 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               kunne imøtekomme behovene deres. Vi benyttet metoden crazy 8s for å oppnå
               flest mulig forslag på kort tid.
             </p>
+            <div className="mt-10 space-y-8">
+              <figure className="overflow-hidden border border-border bg-white">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F088fd7359b724dad80d993a021256501?format=webp&width=800&height=1200"
+                  alt="Skisser av nettsidens struktur"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </figure>
+              <figure className="overflow-hidden border border-border bg-white">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F4c84cd25117443eeb2de817db2ca52ce?format=webp&width=800&height=1200"
+                  alt="Skisser av nettsidens funksjoner"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </figure>
+              <figure className="overflow-hidden border border-border bg-white">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F02558bd5d6904a88a5dacd70b2098a59?format=webp&width=800&height=1200"
+                  alt="Digitale skisser av mobil løsning"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </figure>
+            </div>
           </div>
         </section>
 
