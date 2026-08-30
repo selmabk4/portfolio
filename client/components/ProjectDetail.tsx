@@ -119,7 +119,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <GitBranch aria-hidden="true" className="h-5 w-5" />
                 </div>
                 <p className="text-sm leading-6 text-muted-foreground">
-                  Analyse og strukturering av funn ved hjelp av affinity map
+                  Analyse og strukturering av funn ved hjelp av affinity map og personas
                 </p>
               </article>
 
