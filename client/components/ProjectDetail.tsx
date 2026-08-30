@@ -181,7 +181,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 ) : null}
               </figure>
             ) : null}
-            <div>
+            <div className="mt-12">
               <div className="mb-5 flex items-center justify-between gap-4">
                 <p className="text-xs uppercase tracking-[1.2px] text-muted-foreground">
                   Personas
