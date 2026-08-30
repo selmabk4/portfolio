@@ -600,7 +600,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <p className="font-serif text-5xl font-medium leading-none text-foreground sm:text-6xl">78</p>
                   <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Totalt antall svar</p>
                   <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                    Til sammen resulterte undersøkelsene i 78 svar.
+                    Spørreundersøkelsene resulterte i 78 svar fra et bredt spekter med frilansere og oppdragstakere
                   </p>
                 </article>
               </div>
