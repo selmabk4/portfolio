@@ -1,6 +1,7 @@
 import GradientBlob from "@/components/GradientBlob";
 import ContactCta from "@/components/ContactCta";
 import FeaturedProjects from "@/components/FeaturedProjects";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -38,13 +39,18 @@ export default function Index() {
           </div>
 
           <div className="w-full pt-8">
-            <a
-              href="#prosjekter"
+            <Link
+              to="/"
+              state={{ scrollTo: "prosjekter" }}
               className="hero-cta-shake inline-flex items-center gap-3 bg-primary px-[22.4px] py-[10.4px] text-[12.8px] uppercase tracking-[1.28px] text-primary-foreground transition-opacity hover:opacity-90"
+              onClick={(event) => {
+                event.preventDefault();
+                document.getElementById("prosjekter")?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Se prosjekter
               <span aria-hidden="true">↓</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

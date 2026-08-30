@@ -4,7 +4,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation, useNavigationType } from "react-router-dom";
+import { useEffect, useRef } from "react";
 import Layout from "@/components/Layout";
 import Index from "./pages/Index";
 import EmanuelVigelandMuseum from "./pages/EmanuelVigelandMuseum";
@@ -17,12 +18,46 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+function ScrollRestoration() {
+  const location = useLocation();
+  const navigationType = useNavigationType();
+  const positions = useRef(new Map<string, number>());
+
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+    return () => {
+      window.history.scrollRestoration = "auto";
+    };
+  }, []);
+
+  useEffect(() => {
+    const savedPosition = positions.current.get(location.key);
+    const frame = window.requestAnimationFrame(() => {
+      if (location.state?.scrollTo) {
+        document.getElementById(location.state.scrollTo)?.scrollIntoView();
+      } else if (navigationType === "POP" && savedPosition !== undefined) {
+        window.scrollTo(0, savedPosition);
+      } else {
+        window.scrollTo(0, 0);
+      }
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      positions.current.set(location.key, window.scrollY);
+    };
+  }, [location.key, location.state, navigationType]);
+
+  return null;
+}
+
 export const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <HashRouter>
+        <ScrollRestoration />
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
@@ -42,7 +77,7 @@ export const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );

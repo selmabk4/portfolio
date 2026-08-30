@@ -7,7 +7,8 @@ export default function EmanuelVigelandMuseum() {
       <section className="border-b border-primary-foreground/20 bg-primary text-primary-foreground">
         <div className="mx-auto flex min-h-[440px] max-w-[1152px] flex-col px-6 pb-12 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
           <Link
-            to="/#prosjekter"
+            to="/"
+            state={{ scrollTo: "prosjekter" }}
             className="inline-flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground"
           >
             <span aria-hidden="true">←</span>
@@ -94,7 +95,8 @@ export default function EmanuelVigelandMuseum() {
 
         <div className="pt-10">
           <Link
-            to="/#prosjekter"
+            to="/"
+            state={{ scrollTo: "prosjekter" }}
             className="inline-flex items-center gap-3 bg-primary px-[17.6px] py-[10.8px] text-xs uppercase tracking-[1.2px] text-primary-foreground transition-opacity hover:opacity-85"
           >
             Alle prosjekter

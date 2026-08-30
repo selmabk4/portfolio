@@ -69,7 +69,8 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
       <section className="border-b border-primary-foreground/20 bg-primary text-primary-foreground">
         <div className="relative mx-auto flex min-h-[400px] max-w-[1152px] flex-col px-6 pb-10 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
           <Link
-            to="/#prosjekter"
+            to="/"
+            state={{ scrollTo: "prosjekter" }}
             className="inline-flex items-center gap-3 pr-24 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground sm:pr-0"
           >
             <span aria-hidden="true">←</span>
@@ -674,7 +675,8 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
 
         <div className="pt-10">
           <Link
-            to="/#prosjekter"
+            to="/"
+            state={{ scrollTo: "prosjekter" }}
             className="inline-flex items-center gap-3 bg-primary px-[17.6px] py-[10.8px] text-xs uppercase tracking-[1.2px] text-primary-foreground transition-opacity hover:opacity-85"
           >
             Alle prosjekter
