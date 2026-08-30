@@ -134,7 +134,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <li>Mangelfull informasjon</li>
                   <li>Vanskelig bestilling/booking</li>
                   <li>Lav synlighet</li>
-                  <li>Kunn intern kommunikasjon</li>
+                  <li>Intern kommunikasjon</li>
                 </ul>
               </article>
             </div>
