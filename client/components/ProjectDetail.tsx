@@ -230,10 +230,11 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </div>
             </div>
             <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
+              <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
               <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
-                Hovedfunn: Utydelig kobling og ubrukt potensial: Kundene forstår ikke
-                sammenhengen mellom Tjønnås i sentrum og Norvald på Gjøvik gård, og
-                etterspør en mulighet for å bestille varer.
+                Utydelig kobling og ubrukt potensial: Kundene forstår ikke sammenhengen
+                mellom Tjønnås i sentrum og Norvald på Gjøvik gård, og etterspør en
+                mulighet for å bestille varer.
               </p>
             </div>
           </section>
