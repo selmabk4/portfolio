@@ -5,8 +5,8 @@ const project: ProjectDetailData = {
   summary: "Redesign og ny informasjonsarkitektur med bestillingssystem basert på kundebehov.",
   challenge: "Hvordan kan en restaurantnettside gjøre det enkelt å utforske stedet, bestille og planlegge et besøk?",
   role: "UX- og webdesign",
-  focus: "Booking og bestillingssystem",
-  timeframe: "2025",
+  focus: "Informasjonsarkitektur",
+  timeframe: "10 uker",
   tools: "Figma",
   toolIcon:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fb49189c71da34c50ac1983c08b682755?format=webp&width=800&height=1200",

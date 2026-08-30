@@ -54,7 +54,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
 
           <dl className="mt-12 grid gap-x-6 gap-y-10 text-sm sm:grid-cols-2 lg:grid-cols-4">
             <div className="border-t border-border pt-4">
-              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">Min rolle</dt>
+              <dt className="mb-2 text-xs uppercase tracking-[1.2px] text-muted-foreground">Ansvarsområde</dt>
               <dd className="leading-6 text-foreground">{project.role}</dd>
             </div>
             <div className="border-t border-border pt-4">
