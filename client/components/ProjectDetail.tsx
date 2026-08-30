@@ -277,6 +277,14 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   className="h-full w-full object-cover object-top"
                 />
               </figure>
+              <figure className="col-span-full overflow-hidden border border-border bg-white">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F18f89f697d3e4e6cbeaae43f98cee2af?format=webp&width=800&height=1200"
+                  alt="Sitemap for Tjønnås og Norvald"
+                  loading="lazy"
+                  className="h-auto w-full object-contain"
+                />
+              </figure>
             </div>
           </div>
         </section>
