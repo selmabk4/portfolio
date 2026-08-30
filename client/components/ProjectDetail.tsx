@@ -593,7 +593,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <p className="font-serif text-5xl font-medium leading-none text-foreground sm:text-6xl">8</p>
                   <p className="mt-5 text-xs uppercase tracking-[1.2px] text-muted-foreground">Spørreundersøkelser</p>
                   <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                    Vi laget åtte undersøkelser for å utforske ulike sider av brukerreisen.
+                    Vi lagde åtte spørreundersøkelser for å utforske ulike type brukerreiser.
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
