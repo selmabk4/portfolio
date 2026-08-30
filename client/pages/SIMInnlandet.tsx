@@ -4,7 +4,7 @@ const project: ProjectDetailData = {
   title: "SIMInnlandet",
   summary: "Design av VR-simulering for opplæring av helsepersonell ved sykehuset i Innlandet.",
   challenge: "Hvordan kan en VR-simulering gjøre det tryggere og mer engasjerende å øve på situasjoner fra helsetjenesten?",
-  role: "UX- og XR-design",
+  role: "innsiktsarbeid og idéutvikling",
   focus: "Opplæring gjennom VR-simulering",
   timeframe: "8 uker",
   tools: "Figma",
