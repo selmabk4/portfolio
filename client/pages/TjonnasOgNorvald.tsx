@@ -18,6 +18,8 @@ const project: ProjectDetailData = {
   insightsImage:
     "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fadd3e4e8803a43d2958aa85ec71fbee4?format=webp&width=800&height=1200",
   insightsImageAlt: "Affinity map med organiserte intervjufunn",
+  insightsSummary:
+    "Affinity mappet hjalp oss med å sortere funnene og få en oversikt over alle problemområdene.",
 };
 
 export default function TjonnasOgNorvald() {
