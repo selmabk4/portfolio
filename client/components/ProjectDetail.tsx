@@ -255,24 +255,24 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             <div className="mt-10 space-y-8">
               <figure className="overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F088fd7359b724dad80d993a021256501?format=webp&width=800&height=1200"
-                  alt="Skisser av nettsidens struktur"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F24c0cc29e31149d5b55c1b9493db65f2?format=webp&width=800&height=1200"
+                  alt="Skisser av nettsidens struktur og innhold"
                   loading="lazy"
                   className="h-auto w-full object-contain"
                 />
               </figure>
               <figure className="overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F4c84cd25117443eeb2de817db2ca52ce?format=webp&width=800&height=1200"
-                  alt="Skisser av nettsidens funksjoner"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd80c59d37cca49b187e8faa9c2bf27e3?format=webp&width=800&height=1200"
+                  alt="Skisser av nettsidens funksjoner og innhold"
                   loading="lazy"
                   className="h-auto w-full object-contain"
                 />
               </figure>
               <figure className="overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F02558bd5d6904a88a5dacd70b2098a59?format=webp&width=800&height=1200"
-                  alt="Digitale skisser av mobil løsning"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F44ffc818c358433eb8ee9c39af959e3a?format=webp&width=800&height=1200"
+                  alt="Digitale skisser av mobil løsning og bestilling"
                   loading="lazy"
                   className="h-auto w-full object-contain"
                 />
