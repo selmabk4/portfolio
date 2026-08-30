@@ -612,7 +612,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Gjennom intervjuer med brukere undersøkte vi hvordan de jobber med fakturaer i praksis, hvilke forventninger de har til verktøyet, og hvor de trenger mer støtte.
+                Jeg gjennomførte 11 intervjuer med brukere for å undersøke hvordan de jobber med fakturaer i praksis, hvilke forventninger de har til verktøyet, og hvor de trenger mer støtte.
               </p>
             </section>
 
