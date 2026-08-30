@@ -203,7 +203,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
                     <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
                     <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
-                      VR-scenarioene trenger UX-design rundt seg, slik at helsepersonell kan fokusere på læringen. Løsningen må være veldig intuitiv, da tekniske problemer kan hindre læring.
+                      VR-scenarioene krever et intuitivt UX-design for å eliminere teknisk friksjon, slik at helsepersonellet kan rette fullt fokus mot selve læringen.
                     </p>
                   </div>
                 </div>
