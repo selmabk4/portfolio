@@ -1,4 +1,4 @@
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
@@ -9,8 +9,6 @@ const navItems = [
 ];
 
 export default function Layout({ children }: { children: ReactNode }) {
-  const location = useLocation();
-
   return (
     <div className="min-h-screen bg-background">
       <header className="fixed inset-x-0 top-0 z-20 border-b border-border bg-background/95 backdrop-blur-sm">
@@ -25,19 +23,19 @@ export default function Layout({ children }: { children: ReactNode }) {
             {navItems.map((item) => (
               <li key={item.to}>
                 {item.to === "#kontakt" ? (
-                  <Link
-                    to="/"
-                    state={{ scrollTo: "kontakt" }}
+                  <a
+                    href="#kontakt"
                     className="border-b border-transparent pb-[1.5px] text-xs font-normal uppercase tracking-[1.2px] text-muted-foreground transition-colors hover:text-primary"
                     onClick={(event) => {
-                      if (location.pathname === "/") {
-                        event.preventDefault();
-                        document.getElementById("kontakt")?.scrollIntoView({ behavior: "smooth" });
-                      }
+                      event.preventDefault();
+                      document.getElementById("kontakt")?.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
                     }}
                   >
                     {item.label}
-                  </Link>
+                  </a>
                 ) : (
                   <NavLink
                     to={item.to}
