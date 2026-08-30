@@ -4,7 +4,7 @@ const project: ProjectDetailData = {
   title: "PayoutPartner",
   summary: "UX-arbeid for PayoutPartner med fokus på innsikt, faktureringsforslag og en tydeligere markedsføringsside.",
   challenge: "Hvordan kan innsikt fra brukere bli til enklere fakturering og en mer relevant markedsføringsside?",
-  role: "UX-design og innsiktsarbeid",
+  role: "UX research, konseptutvikling, ny markedsføringsside",
   focus: "Faktureringsforslag og markedsføringsside",
   timeframe: "8 uker",
   tools: "",
