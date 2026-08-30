@@ -142,12 +142,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               Prototype
             </p>
             <div className="h-1 w-12 bg-primary" />
-            <div className="mx-auto mt-10 aspect-[9/16] w-full max-w-[390px] overflow-hidden border border-border bg-white">
+            <div className="mx-auto mt-10 w-full max-w-[900px] overflow-hidden rounded-[18px] border border-foreground/10 bg-white shadow-[0_12px_40px_rgba(0,0,0,0.1)]">
               <iframe
-                src="https://www.figma.com/proto/1B5k7km5tDQS2yXKiLsBsO/SIMInnlandet?content-scaling=fixed&kind=proto&node-id=1-1088&page-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A1250"
+                src="https://embed.figma.com/proto/1B5k7km5tDQS2yXKiLsBsO/SIMInnlandet?page-id=0%3A1&node-id=1-1088&viewport=1730%2C808%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A1250&embed-host=share"
                 title="SIMInnlandet prototype"
                 allowFullScreen
-                className="h-full w-full"
+                loading="lazy"
+                className="mx-auto block h-[450px] w-full max-w-[800px] border border-black/10"
               />
             </div>
           </section>
