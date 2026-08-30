@@ -16,12 +16,12 @@ const project: ProjectDetailData = {
   insights:
     "Vi gjennomførte grundig innsiktsarbeid basert på 20 intervjuer med både kunder og ansatte hos Tjønnås og Norvald. Gjennom analyse i et affinity map avdekket vi fire sentrale problemområder: manglende informasjon, vanskelig bestilling og booking, lav produktsynlighet og interne kommunikasjonsutfordringer.",
   insightsImage:
-    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fadd3e4e8803a43d2958aa85ec71fbee4?format=webp&width=800&height=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fadd3e4e8803a43d2958aa85ec71fbee4?format=webp&width=1600&height=2400",
   insightsImageAlt: "Affinity map med organiserte intervjufunn",
   insightsSummary:
     "Affinity mappet hjalp oss med å sortere funnene og få en oversikt over alle problemområdene.",
   iterationsImage:
-    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F1988f3e9d7394e538415e13f48711223?format=webp&width=800&height=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F1988f3e9d7394e538415e13f48711223?format=webp&width=1600&height=2400",
   iterationsImageAlt: "Før- og etterbilder av nettsiden",
 };
 

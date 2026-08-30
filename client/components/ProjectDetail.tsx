@@ -28,22 +28,22 @@ export interface ProjectDetailData {
 
 const personaImages = [
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F743ba3e3b9c5449d9862fdef22fef2d3?format=webp&width=800&height=1200",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F743ba3e3b9c5449d9862fdef22fef2d3?format=webp&width=1600&height=2400",
     alt: "Persona: studentkunde",
     label: "Studentkunde",
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd5b3b6ce21ea44f2b1808b29c6904a96?format=webp&width=800&height=1200",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd5b3b6ce21ea44f2b1808b29c6904a96?format=webp&width=1600&height=2400",
     alt: "Persona: Norvald kunde",
     label: "Norvald kunde",
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F877981ebf27b430089d874ff04ded6b6?format=webp&width=800&height=1200",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F877981ebf27b430089d874ff04ded6b6?format=webp&width=1600&height=2400",
     alt: "Persona: Tjønnås kunde",
     label: "Tjønnås kunde",
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5ef593efd55949198465dce5e23eb94f?format=webp&width=800&height=1200",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F5ef593efd55949198465dce5e23eb94f?format=webp&width=1600&height=2400",
     alt: "Persona: ansatt",
     label: "Ansatt",
   },
@@ -257,7 +257,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               <figure className="aspect-[4/3] overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F24c0cc29e31149d5b55c1b9493db65f2?format=webp&width=800&height=1200"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F24c0cc29e31149d5b55c1b9493db65f2?format=webp&width=1600&height=2400"
                   alt="Skisser av nettsidens struktur og innhold"
                   loading="lazy"
                   className="h-full w-full object-cover object-top"
@@ -265,7 +265,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </figure>
               <figure className="aspect-[4/3] overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd80c59d37cca49b187e8faa9c2bf27e3?format=webp&width=800&height=1200"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd80c59d37cca49b187e8faa9c2bf27e3?format=webp&width=1600&height=2400"
                   alt="Skisser av nettsidens funksjoner og innhold"
                   loading="lazy"
                   className="h-full w-full object-cover object-top"
@@ -273,7 +273,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </figure>
               <figure className="aspect-[4/3] overflow-hidden border border-border bg-white">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F44ffc818c358433eb8ee9c39af959e3a?format=webp&width=800&height=1200"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F44ffc818c358433eb8ee9c39af959e3a?format=webp&width=1600&height=2400"
                   alt="Digitale skisser av mobil løsning og bestilling"
                   loading="lazy"
                   className="h-full w-full object-cover object-top"
