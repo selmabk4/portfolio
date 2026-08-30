@@ -143,6 +143,9 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               Prototype
             </p>
             <div className="h-1 w-12 bg-primary" />
+            <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+              SIMInnlandet presenterte sin VR-løsning med interaktive, AI-drevne pasientscenarioer. Vi videreutviklet og visualiserte konseptet med særlig vekt på onboardingen, for å skape trygge og forutsigbare rammer før brukerne går inn i scenarioene.
+            </p>
             <div className="mx-auto mt-10 w-full max-w-[900px] overflow-hidden rounded-[18px] border border-foreground/10 bg-white shadow-[0_12px_40px_rgba(0,0,0,0.1)]">
               <iframe
                 src="https://embed.figma.com/proto/1B5k7km5tDQS2yXKiLsBsO/SIMInnlandet?page-id=0%3A1&node-id=1-1088&viewport=1730%2C808%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A1250&embed-host=share"
