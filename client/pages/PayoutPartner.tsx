@@ -3,7 +3,7 @@ import ProjectDetail, { type ProjectDetailData } from "@/components/ProjectDetai
 const project: ProjectDetailData = {
   title: "PayoutPartner",
   summary: "UX-arbeid for PayoutPartner med fokus på innsikt, faktureringsforslag og en tydeligere markedsføringsside.",
-  challenge: "Hvordan kan innsikt fra brukere bli til enklere fakturering og en mer relevant markedsføringsside?",
+  challenge: "I løpet av sommeren 2026 var jeg utplassert hos bedriften Skiwo, der jeg arbeidet med utvikling av PayoutPartner, en faktureringsplattform for frilansere. Her brukte jeg reell brukerinnsikt til å utfordre etablerte antakelser, noe som blant annet drev frem konseptualiseringen av nye, transparente KI-løsninger.",
   role: "Brukerintervjuer, Konseptutvikling, design av ny markedsføringsside",
   focus: "UX research",
   timeframe: "8 uker",
