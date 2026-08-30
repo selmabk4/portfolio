@@ -630,7 +630,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-                Målet med praksisperioden var egentlig å designe en hel automatisert KI-flow, men innsiktsfasen tilsa at dette var en dårlig ide.
+                Da praksisperioden startet, var hovedhypotesen at en helautomatisert KI-tjeneste ville gi størst mulig verdi og effektivitet. Da vi gikk inn i innsiktsfasen og analyserte brukernes faktiske utfordringer, smertepunkter og arbeidshverdag, avkreftet dataene denne antakelsen. Det viste seg at en slik automatisering ikke ville svare til de reelle behovene i målgruppen, og innsikten ble derfor avgjørende for å forkaste den opprinnelige planen til fordel for en løsning bedre forankret i brukernes premisser.
               </p>
             </section>
 
