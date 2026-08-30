@@ -6,7 +6,7 @@ const project: ProjectDetailData = {
   challenge: "Hvordan kan en VR-simulering gjøre det tryggere og mer engasjerende å øve på situasjoner fra helsetjenesten?",
   prototype: true,
   simInnlandetContent: true,
-  role: "innsiktsarbeid og idéutvikling",
+  role: "Innsiktsarbeid og idéutvikling",
   focus: "Opplæring gjennom VR-simulering",
   timeframe: "8 uker",
   tools: "Figma",
