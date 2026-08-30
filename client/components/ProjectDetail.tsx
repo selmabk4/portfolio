@@ -182,13 +182,15 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 Innsiktsarbeid
               </p>
               <div className="h-1 w-12 bg-primary" />
-              <figure className="mx-auto mt-10 w-full max-w-[360px] overflow-hidden border border-border bg-white">
-                <img
-                  src="https://selmab.com/images/xrekorn.png"
-                  alt="Maskoten til løsningen: XR-ekorn"
-                  loading="lazy"
-                  className="h-auto w-full object-contain"
-                />
+              <figure className="mx-auto mt-8 w-full max-w-[340px] overflow-hidden border border-border bg-white shadow-sm sm:mt-10">
+                <div className="aspect-square bg-[#f0eef8]">
+                  <img
+                    src="https://selmab.com/images/xrekorn.png"
+                    alt="Maskoten til løsningen: XR-ekorn"
+                    loading="lazy"
+                    className="h-full w-full object-contain"
+                  />
+                </div>
                 <figcaption className="border-t border-border bg-background px-6 py-4 text-sm text-muted-foreground sm:px-8">
                   Løsningens maskot
                 </figcaption>
