@@ -21,7 +21,7 @@ const project: ProjectDetailData = {
   insightsSummary:
     "Affinity mappet hjalp oss med å sortere funnene og få en oversikt over alle problemområdene.",
   iterationsImage:
-    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd2a178fb694748a9b79218f8c8d54088?format=webp&width=800&height=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F1988f3e9d7394e538415e13f48711223?format=webp&width=800&height=1200",
   iterationsImageAlt: "Før- og etterbilder av nettsiden",
 };
 
