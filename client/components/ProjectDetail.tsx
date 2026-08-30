@@ -632,6 +632,32 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
                 Da praksisperioden startet, var hovedhypotesen at en helautomatisert KI-tjeneste ville gi størst mulig verdi og effektivitet. Da vi gikk inn i innsiktsfasen og analyserte brukernes faktiske utfordringer, smertepunkter og arbeidshverdag, avkreftet dataene denne antakelsen. Det viste seg at en slik automatisering ikke ville svare til de reelle behovene i målgruppen, og innsikten ble derfor avgjørende for å forkaste den opprinnelige planen til fordel for en løsning bedre forankret i brukernes premisser.
               </p>
+              <div className="mt-10 grid gap-4 sm:grid-cols-3">
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-2xl font-medium leading-tight text-foreground sm:text-3xl">
+                    AI-chat fremfor full automatisering
+                  </p>
+                  <p className="mt-5 text-sm leading-6 text-muted-foreground">
+                    De fleste foretrekker en AI-chat som forklarer og hjelper, fremfor en løsning som automatiserer hele prosessen.
+                  </p>
+                </article>
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-2xl font-medium leading-tight text-foreground sm:text-3xl">
+                    Uklare gebyrer
+                  </p>
+                  <p className="mt-5 text-sm leading-6 text-muted-foreground">
+                    Brukerne forstår ikke alltid avdragene og gebyrene på plattformen.
+                  </p>
+                </article>
+                <article className="border border-border bg-background p-6 sm:p-8">
+                  <p className="font-serif text-2xl font-medium leading-tight text-foreground sm:text-3xl">
+                    Behov for forklaring
+                  </p>
+                  <p className="mt-5 text-sm leading-6 text-muted-foreground">
+                    Brukerne stoler delvis blindt på tjenesten og ønsker derfor en AI som forklarer, ikke bare automatiserer.
+                  </p>
+                </article>
+              </div>
             </section>
 
             <section className="border-b border-border py-16 sm:py-24">
