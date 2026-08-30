@@ -634,7 +634,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="mt-10 grid gap-4 sm:grid-cols-3">
                 <article className="border border-border bg-background p-6 sm:p-8">
-                  <p className="font-serif text-2xl font-medium leading-tight text-foreground sm:text-3xl">
+                  <p className="font-serif text-xl font-medium leading-tight text-foreground sm:text-2xl">
                     AI-chat fremfor full automatisering
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
@@ -642,7 +642,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
-                  <p className="font-serif text-2xl font-medium leading-tight text-foreground sm:text-3xl">
+                  <p className="font-serif text-xl font-medium leading-tight text-foreground sm:text-2xl">
                     Uklare gebyrer
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
@@ -650,7 +650,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   </p>
                 </article>
                 <article className="border border-border bg-background p-6 sm:p-8">
-                  <p className="font-serif text-2xl font-medium leading-tight text-foreground sm:text-3xl">
+                  <p className="font-serif text-xl font-medium leading-tight text-foreground sm:text-2xl">
                     Behov for forklaring
                   </p>
                   <p className="mt-5 text-sm leading-6 text-muted-foreground">
