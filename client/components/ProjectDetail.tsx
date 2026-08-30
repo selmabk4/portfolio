@@ -164,12 +164,6 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <li>Lav synlighet</li>
                   <li>Intern kommunikasjon</li>
                 </ul>
-                <p className="mt-5 border-t border-border pt-4 text-sm leading-6 text-muted-foreground">
-                  <span className="font-medium text-foreground">Hovedfunn:</span>{" "}
-                  Utydelig kobling og ubrukt potensial: Kundene forstår ikke sammenhengen
-                  mellom Tjønnås i sentrum og Norvald på Gjøvik gård, og etterspør en
-                  mulighet for å bestille varer.
-                </p>
               </article>
             </div>
             {project.insightsImage ? (
@@ -234,6 +228,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
+              <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
+                Hovedfunn: Utydelig kobling og ubrukt potensial: Kundene forstår ikke
+                sammenhengen mellom Tjønnås i sentrum og Norvald på Gjøvik gård, og
+                etterspør en mulighet for å bestille varer.
+              </p>
             </div>
           </section>
         ) : null}
