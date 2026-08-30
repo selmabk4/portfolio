@@ -253,28 +253,28 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               flest mulig forslag på kort tid.
             </p>
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
-              <figure className="overflow-hidden border border-border bg-white">
+              <figure className="aspect-[4/3] overflow-hidden border border-border bg-white">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F24c0cc29e31149d5b55c1b9493db65f2?format=webp&width=800&height=1200"
                   alt="Skisser av nettsidens struktur og innhold"
                   loading="lazy"
-                  className="h-auto w-full object-contain"
+                  className="h-full w-full object-cover object-top"
                 />
               </figure>
-              <figure className="overflow-hidden border border-border bg-white">
+              <figure className="aspect-[4/3] overflow-hidden border border-border bg-white">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd80c59d37cca49b187e8faa9c2bf27e3?format=webp&width=800&height=1200"
                   alt="Skisser av nettsidens funksjoner og innhold"
                   loading="lazy"
-                  className="h-auto w-full object-contain"
+                  className="h-full w-full object-cover object-top"
                 />
               </figure>
-              <figure className="overflow-hidden border border-border bg-white">
+              <figure className="aspect-[4/3] overflow-hidden border border-border bg-white">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F44ffc818c358433eb8ee9c39af959e3a?format=webp&width=800&height=1200"
                   alt="Digitale skisser av mobil løsning og bestilling"
                   loading="lazy"
-                  className="h-auto w-full object-contain"
+                  className="h-full w-full object-cover object-top"
                 />
               </figure>
             </div>
