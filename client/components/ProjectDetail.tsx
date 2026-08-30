@@ -164,6 +164,12 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   <li>Lav synlighet</li>
                   <li>Intern kommunikasjon</li>
                 </ul>
+                <p className="mt-5 border-t border-border pt-4 text-sm leading-6 text-muted-foreground">
+                  <span className="font-medium text-foreground">Hovedfunn:</span>{" "}
+                  Utydelig kobling og ubrukt potensial: Kundene forstår ikke sammenhengen
+                  mellom Tjønnås i sentrum og Norvald på Gjøvik gård, og etterspør en
+                  mulighet for å bestille varer.
+                </p>
               </article>
             </div>
             {project.insightsImage ? (
