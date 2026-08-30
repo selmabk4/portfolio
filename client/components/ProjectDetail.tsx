@@ -64,7 +64,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
   return (
     <article>
       <section className="border-b border-primary-foreground/20 bg-primary text-primary-foreground">
-        <div className="relative mx-auto flex min-h-[440px] max-w-[1152px] flex-col px-6 pb-12 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
+        <div className="relative mx-auto flex min-h-[400px] max-w-[1152px] flex-col px-6 pb-10 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
           <Link
             to="/#prosjekter"
             className="inline-flex items-center gap-3 pr-24 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground sm:pr-0"
@@ -73,7 +73,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             Tilbake til prosjekter
           </Link>
 
-          <div className="mt-auto max-w-[700px] pb-24 pt-24 sm:pb-0">
+          <div className="mt-auto max-w-[700px] pb-10 pt-16 sm:pb-0 sm:pt-24">
             <h1 className="max-w-[760px] font-serif text-5xl font-medium leading-[1.02] tracking-[-0.03em] sm:text-7xl lg:text-[84px]">
               {project.title}
             </h1>
