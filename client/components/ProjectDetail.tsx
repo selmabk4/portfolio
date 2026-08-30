@@ -28,6 +28,8 @@ export interface ProjectDetailData {
   iterationsSecondaryImageAlt?: string;
   projectImage?: string;
   projectImageAlt?: string;
+  heroImage?: string;
+  heroImageAlt?: string;
 }
 
 const personaImages = [
@@ -58,7 +60,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
   return (
     <article>
       <section className="border-b border-primary-foreground/20 bg-primary text-primary-foreground">
-        <div className="mx-auto flex min-h-[440px] max-w-[1152px] flex-col px-6 pb-12 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
+        <div className="relative mx-auto flex min-h-[440px] max-w-[1152px] flex-col px-6 pb-12 pt-10 sm:min-h-[520px] sm:px-8 sm:pb-16 sm:pt-14">
           <Link
             to="/#prosjekter"
             className="inline-flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary-foreground/80 transition-colors hover:text-primary-foreground"
@@ -75,6 +77,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               {project.summary}
             </p>
           </div>
+          {project.heroImage ? (
+            <img
+              src={project.heroImage}
+              alt={project.heroImageAlt ?? "Illustrasjon for prosjektet"}
+              className="mt-8 h-40 w-40 self-end object-contain sm:absolute sm:bottom-8 sm:right-8 sm:mt-0 sm:h-64 sm:w-64"
+            />
+          ) : null}
         </div>
       </section>
 
