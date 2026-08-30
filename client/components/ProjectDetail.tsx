@@ -245,6 +245,19 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
             Ideutvikling
           </p>
           <div className="h-1 w-12 bg-primary" />
+          <div className="mt-10 max-w-[680px]">
+            <p className="text-sm leading-7 text-muted-foreground sm:text-base">
+              Videre begynte vi å skissere ut hvordan vi ønsket at løsningen skulle se ut.
+              Her ble det en del diskusjoner om hva som er best for brukeren, og hvordan vi
+              kunne imøtekomme behovene deres. Vi benyttet metoden crazy 8s for å oppnå
+              flest mulig forslag på kort tid.
+            </p>
+            <ul className="mt-8 space-y-3 text-sm leading-7 text-muted-foreground sm:text-base">
+              <li>Skisser på ark</li>
+              <li>Diskusjoner</li>
+              <li>Crazy 8s</li>
+            </ul>
+          </div>
         </section>
 
         <div className="pt-10">
