@@ -88,30 +88,6 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
           </dl>
         </section>
 
-        <section className="border-b border-border py-16 sm:py-24">
-          <div className="grid gap-6 sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] sm:gap-16">
-            <p className="flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary">
-              <span className="h-px w-6 bg-primary" aria-hidden="true" />
-              Bakgrunn
-            </p>
-            <p className="max-w-[620px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
-              {project.background}
-            </p>
-          </div>
-        </section>
-
-        <section className="border-b border-border py-16 sm:py-24">
-          <div className="grid gap-6 sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] sm:gap-16">
-            <p className="flex items-center gap-3 text-xs uppercase tracking-[1.2px] text-primary">
-              <span className="h-px w-6 bg-primary" aria-hidden="true" />
-              User research
-            </p>
-            <p className="max-w-[620px] font-serif text-2xl leading-[1.4] text-foreground sm:text-[32px]">
-              {project.research}
-            </p>
-          </div>
-        </section>
-
         <div className="pt-10">
           <Link
             to="/#prosjekter"
