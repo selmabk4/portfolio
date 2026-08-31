@@ -98,7 +98,7 @@ export default function OmMeg() {
               <Entry
                 title="REMA 1000 Lillestrøm"
                 meta="Butikkmedarbeider · apr. 2022 — jul. 2024"
-                detail="Arbeidet omfattet kassearbeid, varepåfylling, mersalg, kundeservice og åpningsansvar i ferier. Stillingen ga god erfaring med problemløsning, stressmestring og effektivitet i et hektisk miljø."
+                bullets={["Kassearbeid & Varepåfylling", "Åpningsansvar i ferier", "Stressmestring & Problemløsning"]}
               />
             </div>
           </div>
