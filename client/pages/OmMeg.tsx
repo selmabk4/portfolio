@@ -21,12 +21,17 @@ function Tags({ items }: { items: string[] }) {
   );
 }
 
-function Entry({ title, meta, detail }: { title: string; meta: string; detail?: string }) {
+function Entry({ title, meta, detail, bullets }: { title: string; meta: string; detail?: string; bullets?: string[] }) {
   return (
     <div className="space-y-1">
       <h3 className="text-[14px] font-medium text-[#1a1610]">{title}</h3>
       <p className="text-[12px] leading-[18px] text-[#b0a898]">{meta}</p>
       {detail && <p className="text-[12px] leading-[18px] text-[#6b6456]">{detail}</p>}
+      {bullets && (
+        <ul className="list-disc pl-4 text-[12px] leading-[18px] text-[#6b6456]">
+          {bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
+        </ul>
+      )}
     </div>
   );
 }
@@ -88,7 +93,7 @@ export default function OmMeg() {
               <Entry
                 title="Lindex CC Gjøvik"
                 meta="Selger · Deltid · okt. 2024 — nå · Gjøvik"
-                detail="Følger produktene fra de ankommer butikken til de overlates til kundene. Arbeidet inkluderer salg, kampanjearbeid, kundeservice, rydding og stengeansvar."
+                bullets={["Salg & Kundeservice", "Stengeansvar"]}
               />
               <Entry
                 title="REMA 1000 Lillestrøm"
