@@ -42,7 +42,7 @@ export default function OmMeg() {
               Jeg studerer interaksjonsdesign ved NTNU i Gjøvik og er nysgjerrig på mennesker, psykologi og hvordan vi samhandler med teknologi.
             </p>
             <p className="pt-4 text-[16px] font-light leading-[26px] text-[#6b6456]">
-              Bakgrunnen min fra kundeservice har lært meg å forstå ekte brukerutfordringer, noe jeg kombinerer med min interesse for datadrevet interaksjonsdesign. Mitt mål er å designe løsninger som balanserer forretningsmål med brukernes faktiske behov.
+              Bakgrunnen min fra kundeservice har lært meg å forstå ekte brukerutfordringer, noe jeg kombinerer med min interesse for datadrevet design. Mitt mål er å designe løsninger som balanserer forretningsmål med brukernes faktiske behov.
             </p>
           </div>
           <div className="relative mx-auto h-[300px] w-[240px] lg:mx-0">
