@@ -38,7 +38,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="w-full pt-8">
+          <div className="flex w-full justify-center pt-8 sm:justify-start">
             <Link
               to="/"
               state={{ scrollTo: "prosjekter" }}
