@@ -93,6 +93,20 @@ export default function EmanuelVigelandMuseum() {
         </section>
 
 
+        <section className="border-b border-border py-16 sm:py-24">
+          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+            Designforslag
+          </p>
+          <div className="mb-10 h-1 w-12 bg-primary" />
+          <div className="overflow-hidden border border-border bg-white">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=800&height=1200"
+              alt="Sammenligning av originalt og nytt design for Emanuel Vigeland Museum"
+              className="h-auto w-full"
+            />
+          </div>
+        </section>
+
         <div className="pt-10">
           <Link
             to="/"
